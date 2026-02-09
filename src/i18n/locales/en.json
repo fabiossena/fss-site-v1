@@ -59,7 +59,6 @@
         "Scalable software architecture"
       ],
       "practices": [
-        "Agile development (Scrum/Kanban)",
         "DDD (Domain-Driven Design)",
         "Structured Code Review",
         "TDD (Test Driven Development)"
@@ -94,14 +93,15 @@
       ]
     },
     "professional": {
-      "title": "Professional 1: DevOps",
-      "subtitle": "DevOps & Automation",
+      "title": "Professional 1: DevOps & IaC",
+      "subtitle": "DevOps & IaC & Automation",
       "objective": "Increase delivery speed with security and standardization.",
       "services": [
-        "Infrastructure as Code (Terraform, Ansible)",
-        "CI/CD with GitHub Actions and ArgoCD",
-        "Containers (Docker, Kubernetes)",
-        "Cloud, on-premises, and hybrid"
+        "Infrastructure as Code and Automation (Terraform, Ansible)",
+        "CI/CD and GitOps (GitHub Actions, Argo CD)",
+        "Containers and Orchestration (Docker, Kubernetes)",
+        "Cloud Computing and Hybrid Architectures (AWS, Azure)",
+        "Multicloud Strategies and Portability"
       ],
       "practices": [
         "GitOps",

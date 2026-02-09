@@ -34,7 +34,8 @@ const Header = () => {
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "glass-card shadow-lg" : "bg-transparent"
+        "glass-card shadow-lg"
+        // isScrolled ? "glass-card shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
@@ -87,7 +88,27 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            {/* <Button className="mt-4 w-full">{t("actions.getStarted")}</Button> */}
+
+            <div className="flex items-center gap-4 pt-4 border-t">
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="sm" className="gap-2">
+                    <Globe className="h-4 w-4" />
+                    {language.toUpperCase()}
+                  </Button>
+                </DropdownMenuTrigger>
+
+                <DropdownMenuContent>
+                  <DropdownMenuItem onClick={() => setLanguage("pt")}>
+                    🇧🇷 Português
+                  </DropdownMenuItem>
+                  <DropdownMenuItem onClick={() => setLanguage("en")}>
+                    🇺🇸 English
+                  </DropdownMenuItem>
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+
           </motion.div>
         )}
       </div>
