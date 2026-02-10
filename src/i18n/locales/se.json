@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "services": "Tjänster",
+    "contact": "Kontakt"
+  },
+  "actions": {
+    "getStarted": "Kom igång"
+  },
+  "servicesSection": {
+    "label": "// TJÄNSTER",
+    "title": "Planer organiserade efter",
+    "highlight": "behov",
+    "description": "Från grundläggande support till kritiska operationer erbjuder vi planer som utvecklas med din företags mognad och behov.",
+    "categories": {
+      "essential": "Essential",
+      "essentialDescription": "Grundläggande tjänster för startupföretag och småföretag",
+      "professional": "Professional",
+      "professionalDescription": "Avancerade lösningar för växande företag",
+      "enterprise": "Enterprise",
+      "enterpriseDescription": "Företagslösningar för stora organisationer"
+    }
+  },
+  "plans": {
+    "labels": {
+      "objective": "Mål",
+      "services": "Tjänster",
+      "practices": "Praktiker & Teknologier",
+      "results": "Förväntade Resultat"
+    },
+    "essential1": {
+      "title": "Essential 1: Support",
+      "subtitle": "Underhåll & Operativ Stabilitet",
+      "objective": "Säkerställa operativ kontinuitet, stabilitet och proaktiv minskning av incidenter i befintliga system.",
+      "services": [
+        "Korrigerande och evolutionärt underhåll av legacy och moderna system",
+        "Kodrefaktorisering och minskning av teknisk skuld",
+        "Beroendehantering och säkerhetsuppdateringar",
+        "Implementering av meddelandelösningar för asynkrona processer"
+      ],
+      "practices": [
+        "Språk: C#, Java, PHP, JavaScript/TypeScript, Python",
+        "Ramverk: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
+        "Versionshantering: Git med strukturerade arbetsflöden",
+        "Systematisk kodgranskning med tekniska checklistor",
+        "Upprätthållna enhetstester och integrationstester"
+      ],
+      "results": [
+        "Mer än 40% minskning av kritiska incidenter",
+        "Stabila och förutsägbara miljöer",
+        "Renare och hållbarare kod"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: Utveckling",
+      "subtitle": "Nya Projekt & Funktioner",
+      "objective": "Utveckla innovativa lösningar med modern arkitektur, garanterad kvalitet och kontinuerligt värdeleverans.",
+      "services": [
+        "Utveckling av nya funktioner och moduler",
+        "Implementering av greenfield-system med modern arkitektur",
+        "Strategisk migrering av legacy-system till nuvarande teknologier",
+        "Integration av REST/GraphQL API:er och mikrotjänstarkitektur",
+        "Design och implementering av skalbara arkitekturer (händelsedriven, CQRS)"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design) med bounded contexts",
+        "TDD (Test Driven Development) och BDD (Behavior Driven Development)",
+        "Grundläggande CI/CD med automatiserade pipelines",
+        "Frontend-ramverk: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI-bibliotek: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "Hexagonal arkitektur och clean architecture",
+        "Agila metoder, Scrum, Planering, Synkronisering, Backlog-förfining, Jira, kodgranskningar",
+        "Parprogrammering och mobprogrammering för komplexiteter",
+        "Levande teknisk dokumentation (Swagger/OpenAPI, Archimate)",
+        "Designmönster tillämpade på storskaliga system"
+      ],
+      "results": [
+        "Time-to-market minskat med 30-50%",
+        "Lösningar med hög testtäckning (>80%)",
+        "Hållbara och lätt utvecklingsbara arkitekturer",
+        "Kod med låg koppling och hög sammanhållning",
+        "Kontinuerlig leverans av mätbart värde"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: Data & Integration",
+      "subtitle": "Databaser & Meddelandehantering",
+      "objective": "Optimera dataprestanda och implementera pålitliga meddelandesystem för asynkron integration.",
+      "services": [
+        "Avancerad optimering av frågor och exekveringsplaner",
+        "Synkron/asynkron replikering och hög tillgänglighet (HA)",
+        "Katastrofåterställning med definierade RTO/RPO",
+        "Dimensionell modellering och optimerat schemadesign",
+        "Implementering av meddelandesystem för systemintegration",
+        "Datamigrering mellan legacy och moderna plattformar"
+      ],
+      "practices": [
+        "DBMS: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
+        "Meddelandehantering: RabbitMQ, Apache Kafka för händelsebearbetning",
+        "Övervakning: Query performance insights, deadlocks, wait-statistik",
+        "Strategisk säkerhetskopiering: full, differential, transaktionslogg",
+        "Intelligent indexering och partitionering",
+        "Avancerade lagrade procedurer, triggers och T-SQL-optimering",
+        "RabbitMQ-integration för asynkron bearbetning"
+      ],
+      "results": [
+        "Optimerad prestanda (latens minskat med 60%+)",
+        "Optimerade driftskostnader med adekvat skalning",
+        "Datatillgänglighet >99.9%",
+        "Garanterad återställning i katastrofscenarier",
+        "Förutsägbar skalbarhet för tillväxt",
+        "Pålitlig asynkron bearbetning med RabbitMQ"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: Infrastruktur",
+      "subtitle": "DevOps, IaC & Automatisering",
+      "objective": "Implementera infrastruktur som kod, kontinuerliga leveranspipelines och reproducerbara miljöer med säkerhet och styrning.",
+      "services": [
+        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
+        "Konfigurationsautomatisering: Ansible, Chef, Puppet, SaltStack",
+        "Enterprise CI/CD: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
+        "GitOps: ArgoCD, FluxCD för deklarativ deployment",
+        "Containerisering: Docker, containerd, Podman",
+        "Orkestrering: Kubernetes, Nomad, Docker Swarm",
+        "Moln: AWS, Azure, GCP med well-architected-arkitekturer"
+      ],
+      "practices": [
+        "GitOps med automatisk rollback och approval gates",
+        "Oföränderlig och versionshanterad infrastruktur",
+        "Pipeline as Code med återanvändbara mallar",
+        "Security scanning i alla faser (SAST, DAST, SCA)",
+        "Strategisk multi-cloud och hybrid cloud",
+        "Service Mesh: Istio, Linkerd för observability",
+        "Secret management: HashiCorp Vault, AWS Secrets Manager",
+        "YAML för Kubernetes-konfiguration och orkestrering",
+        "Operativt stöd med k9s för klusterhantering"
+      ],
+      "results": [
+        "Frekventa och förutsägbara deploymenter (flera per dag)",
+        "Katastrofåterställning på minuter",
+        "Konsistens mellan miljöer (dev, staging, prod)",
+        "Optimerade kostnader med auto-scaling",
+        "Automatiserad efterlevnad med policyer",
+        "99.9% uptime i containeriserade miljöer"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: Observability",
+      "subtitle": "Enterprise-övervakning & Telemetri",
+      "objective": "Erbjud fullständig synlighet, proaktiv detektering och användbara insikter via realtidstelemetri.",
+      "services": [
+        "Implementering av fullständig observability: mätvärden, loggar, spår",
+        "Enterprise-dashboards: Grafana, New Relic",
+        "Syntetisk övervakning och användarupplevelsekontroller"
+      ],
+      "practices": [
+        "Observability as Code med versionshanterad konfiguration",
+        "Grafana och Prometheus för anpassade mätvärden",
+        "4 Golden Signals + RED och USE-metodologier",
+        "SLO/SLI/SLA-definition och error budget-tracking",
+        "Händelsekorrelation mellan system"
+      ],
+      "results": [
+        "Fullständig synlighet av tech-stacken",
+        "Intelligenta larm med lågt brusnivå",
+        "Data-driven beslutsfattande i realtid",
+        "Problem upptäckta före användarna"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: Tillförlitlighet",
+      "subtitle": "Site Reliability Engineering",
+      "objective": "Säkerställa tillförlitlighet, återhämtningsförmåga och förutsägbara operationer genom systematisk ingenjörskonst och automatisering.",
+      "services": [
+        "Definition och implementering av SLI:er, SLO:er, SLA:er",
+        "Incidenthantering med playbooks och war rooms",
+        "Post-mortems med blameless culture och action items",
+        "Kapacitetsplanering och prestandaprognoser",
+        "Kaos engineering och resilience testing",
+        "Operativ automatisering (chatops, automatiserade runbooks)",
+        "Orkestrering av distribuerade system med meddelandehantering"
+      ],
+      "practices": [
+        "Error budget management och medvetna avvägningar",
+        "Game days och failure injection testing",
+        "Exekverbara runbooks med auto-remediation",
+        "Toil reduction via automatisering",
+        "Canary deployments och feature flagging",
+        "Service Level Objectives med flera dimensioner",
+        "Incident response med automatiserad eskalering",
+        "Apache Kafka-integration i händelsedrivna arkitekturer",
+        "Återhämtningsförmåga i meddelandebearbetningssystem"
+      ],
+      "results": [
+        "Tillgänglighet >99.95% för kritiska tjänster",
+        "Förutsägbara och skalbara operationer",
+        "Mer än 70% minskning av manuellt arbete",
+        "Kontinuerlig lärandekultur via incidenter",
+        "Hög tillgänglighet i meddelandesystem"
+      ]
+    },
+    "enterprise1": {
+      "title": "Enterprise 1: Moln & Meddelandehantering",
+      "subtitle": "Serverless & Event-Driven Arkitektur",
+      "objective": "Maximera användningen av hanterade molntjänster och meddelandesystem för skalbara händelsedrivna arkitekturer.",
+      "services": [
+        "Serverless-first arkitektur med AWS Lambda, Azure Functions",
+        "Serverless containerisering: AWS Fargate, Azure Container Instances",
+        "Enterprise observability: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "Event-driven arkitekturer med hanterade tjänster (EventBridge, SQS)",
+        "Hanterade databaser: RDS, Aurora, Azure SQL Managed Instance",
+        "Orkestrering av distribuerade system med Apache Kafka"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "Karpenter för serverless resurshantering",
+        "Infrastructure as Code med återanvändbara moduler",
+        "Event-driven designmönster med hanterade tjänster",
+        "Fargate med auto-scaling baserat på anpassade mätvärden",
+        "Apache Kafka för storskalig bearbetning",
+        "RabbitMQ för integration mellan mikrotjänster"
+      ],
+      "results": [
+        "Mer än 70% minskning av operativ overhead",
+        "Time-to-market för nya tjänster på timmar",
+        "Automatisk skalning på begäran",
+        "Operationer hanterade av molnleverantörer",
+        "Teamfokus på funktioner, inte infrastruktur",
+        "Bevisad återhämtningsförmåga i flera regioner",
+        "Mycket skalbara händelsedrivna arkitekturer"
+      ]
+    },
+    "enterprise2": {
+      "title": "Enterprise 2: AI & Automatisering",
+      "subtitle": "Generativ AI & Intelligent Bearbetning",
+      "objective": "Implementera AI-lösningar som automatiserar komplexa processer, ökar produktivitet och genererar strategiska insikter.",
+      "services": [
+        "Integration av generativ AI i enterprisesystem",
+        "Model Context Protocol (MCP) för säker integration",
+        "Processautomatisering med intelligent RPA",
+        "Enterprise-assistenter med retrieval-augmented generation (RAG)",
+        "Fine-tuning av modeller för specifika domäner",
+        "Datorseende och naturlig språkbehandling"
+      ],
+      "practices": [
+        "RAG (Retrieval-Augmented Generation) med vektorisering",
+        "Kontexthantering och säkerhetsguardrails",
+        "Avancerad prompt engineering och chain-of-thought",
+        "LLM Ops: versionering, övervakning, utvärdering",
+        "Kontinuerlig modellevaluering och drift detection"
+      ],
+      "results": [
+        "Automatisering av manuella processer (70%+ minskning)",
+        "Snabbare beslutsfattande med AI-insikter",
+        "Ökad produktivitet med intelligenta assistenter",
+        "Accelererad innovation med snabb prototypning",
+        "Styrning och efterlevnad i AI-lösningar",
+        "Integrerad datapipeline med meddelandesystem"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: Kritisk Mission",
+      "subtitle": "Enterprise-arkitektur & Säkerhet",
+      "objective": "Operera kritiska system med extrema krav på säkerhet, efterlevnad, tillgänglighet och prestanda.",
+      "services": [
+        "Arkitektur för storskaliga distribuerade system",
+        "DevSecOps med shift-left och shift-right säkerhet",
+        "Tekniska granskningar och efterlevnad (ISO, SOC2, GDPR, LGPD)",
+        "Hög tillgänglighetsarkitekturer i flera regioner",
+        "Enterprise business continuity och katastrofåterställning",
+        "Prestandaengineering för transaktionsintensiva system",
+        "Meddelandesystem för kritiska finansiella operationer"
+      ],
+      "practices": [
+        "Zero Trust Architecture med mikrosegmentering",
+        "Security by design i alla komponenter",
+        "Återhämtningsbar infrastruktur med failure domains",
+        "Levande dokumentation med architectural decision records",
+        "Ramverk: TOGAF, Zachman för enterprise-arkitektur",
+        "Kontinuerliga penetrationstester och bug bounty-program",
+        "End-to-end-kryptering och confidential computing",
+        "Apache Kafka för hög tillgänglighet i finansiella system",
+        "RabbitMQ med klustring och mirroring för hög tillgänglighet"
+      ],
+      "results": [
+        "Garantierad efterlevnad med regelverk",
+        "Tillgänglighet >99.99% för kritiska missioner",
+        "Proaktiv säkerhet med threat intelligence",
+        "Bevisad återhämtningsförmåga i stresstester",
+        "Fullständig styrning med audittrails",
+        "Meddelandesystem med leveransgaranti för kritiska transaktioner"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • AI • Cloud Native • Security • Messaging",
+    "title": {
+      "before": "Pålitlig programvara,",
+      "highlight": "automatiserad infrastruktur",
+      "after": "och återhämtningsbara operationer"
+    },
+    "subtitle": "Vi kombinerar mjukvaruutveckling, DevOps, SRE, AI, meddelandehantering (Kafka/RabbitMQ) och agila metoder för att leverera stabila, skalbara och säkra system för kritiska miljöer.",
+    "cta": {
+      "primary": "Begär teknisk diagnos",
+      "secondary": "Prata med en specialist"
+    },
+    "trust": "Teknologier och praktiker vi använder"
+  },
+  "footer": {
+    "description": "Strategisk teknologipartner, fokuserad på tillförlitlighet, skalbarhet, automatisering, meddelandehantering, säkerhet och kontinuerlig värdeleverans.",
+    "location": "São Paulo, Brasilien",
+    "sections": {
+      "services": "Tjänster",
+      "company": "Företag",
+      "resources": "Resurser"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "Om",
+      "careers": "Karriär",
+      "blog": "Blogg",
+      "contact": "Kontakt"
+    },
+    "resources": {
+      "docs": "Dokumentation",
+      "caseStudies": "Fallstudier",
+      "whitepapers": "Vitböcker",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Redo att transformera din infrastruktur?",
+      "subtitle": "Kontakta oss och upptäck hur vi kan hjälpa ditt företag att nå nya nivåer av tillförlitlighet och effektivitet.",
+      "primary": "Begär diagnos",
+      "secondary": "Prata med en specialist"
+    },
+    "rights": "Alla rättigheter förbehålls."
+  }
+}

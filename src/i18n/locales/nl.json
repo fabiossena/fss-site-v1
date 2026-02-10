@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "services": "Diensten",
+    "contact": "Contact"
+  },
+  "actions": {
+    "getStarted": "Beginnen"
+  },
+  "servicesSection": {
+    "label": "// DIENSTEN",
+    "title": "Plannen georganiseerd op",
+    "highlight": "behoefte",
+    "description": "Van basisondersteuning tot kritieke operaties, we bieden plannen die meegroeien met de volwassenheid en behoeften van uw bedrijf.",
+    "categories": {
+      "essential": "Essential",
+      "essentialDescription": "Kernservices voor startups en kleine bedrijven",
+      "professional": "Professional",
+      "professionalDescription": "Geavanceerde oplossingen voor groeiende bedrijven",
+      "enterprise": "Enterprise",
+      "enterpriseDescription": "Ondernemingsoplossingen voor grote organisaties"
+    }
+  },
+  "plans": {
+    "labels": {
+      "objective": "Doelstelling",
+      "services": "Diensten",
+      "practices": "Praktijken & Technologieën",
+      "results": "Verwachte Resultaten"
+    },
+    "essential1": {
+      "title": "Essential 1: Ondersteuning",
+      "subtitle": "Onderhoud & Operationele Stabiliteit",
+      "objective": "Operationele continuïteit, stabiliteit en proactieve reductie van incidenten in bestaande systemen garanderen.",
+      "services": [
+        "Corrigerend en evolutionair onderhoud van legacy en moderne systemen",
+        "Coderefactoring en technische schuldreductie",
+        "Afhankelijkheidsbeheer en beveiligingsupdates",
+        "Implementatie van messagingoplossingen voor asynchrone processen"
+      ],
+      "practices": [
+        "Talen: C#, Java, PHP, JavaScript/TypeScript, Python",
+        "Frameworks: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
+        "Versiebeheer: Git met gestructureerde workflows",
+        "Systematische code reviews met technische checklists",
+        "Onderhouden unit- en integratietests"
+      ],
+      "results": [
+        "Meer dan 40% reductie in kritieke incidenten",
+        "Stabiele en voorspelbare omgevingen",
+        "Schonere en duurzamere code"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: Ontwikkeling",
+      "subtitle": "Nieuwe Projecten & Functionaliteiten",
+      "objective": "Innovatieve oplossingen ontwikkelen met moderne architectuur, gegarandeerde kwaliteit en continue waardeoplevering.",
+      "services": [
+        "Ontwikkeling van nieuwe functionaliteiten en modules",
+        "Implementatie van greenfield-systemen met moderne architectuur",
+        "Strategische migratie van legacy-systemen naar huidige technologieën",
+        "Integratie van REST/GraphQL API's en microservicesarchitectuur",
+        "Ontwerp en implementatie van schaalbare architecturen (event-driven, CQRS)"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design) met bounded contexts",
+        "TDD (Test Driven Development) en BDD (Behavior Driven Development)",
+        "Basis CI/CD met geautomatiseerde pipelines",
+        "Frontend frameworks: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI Libraries: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "Hexagonale architectuur en clean architecture",
+        "Agile methodologieën, Scrum, Planningen, Synchronisatie, Backlog-verfijning, Jira, code reviews",
+        "Pair programming en mob programming voor complexiteiten",
+        "Levende technische documentatie (Swagger/OpenAPI, Archimate)",
+        "Ontwerppatronen toegepast op grootschalige systemen"
+      ],
+      "results": [
+        "Time-to-market met 30-50% gereduceerd",
+        "Oplossingen met hoge testdekking (>80%)",
+        "Duurzame en eenvoudig evolueerbare architecturen",
+        "Code met lage koppeling en hoge cohesie",
+        "Continue levering van meetbare waarde"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: Data & Integratie",
+      "subtitle": "Databases & Messaging",
+      "objective": "Data-prestaties optimaliseren en betrouwbare messaging-systemen implementeren voor asynchrone integratie.",
+      "services": [
+        "Geavanceerde optimalisatie van queries en uitvoeringsplannen",
+        "Synchrone/asynchrone replicatie en hoge beschikbaarheid (HA)",
+        "Disaster Recovery met gedefinieerde RTO/RPO",
+        "Dimensionale modellering en geoptimaliseerd schema-ontwerp",
+        "Implementatie van messaging-systemen voor systeemintegratie",
+        "Datamigratie tussen legacy en moderne platforms"
+      ],
+      "practices": [
+        "DBMS: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
+        "Messaging: RabbitMQ, Apache Kafka voor gebeurtenisverwerking",
+        "Monitoring: Query performance insights, deadlocks, wait-statistieken",
+        "Strategische backups: volledig, differentieel, transactielog",
+        "Intelligente indexering en partitionering",
+        "Geavanceerde stored procedures, triggers en T-SQL-optimalisatie",
+        "RabbitMQ-integratie voor asynchrone verwerking"
+      ],
+      "results": [
+        "Geoptimaliseerde prestaties (latentie met 60%+ gereduceerd)",
+        "Geoptimaliseerde operationele kosten met adequate schaling",
+        "Databeschikbaarheid >99.9%",
+        "Gegarandeerd herstel in disaster-scenario's",
+        "Voorspelbare schaalbaarheid voor groei",
+        "Betrouwbare asynchrone verwerking met RabbitMQ"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: Infrastructuur",
+      "subtitle": "DevOps, IaC & Automatisering",
+      "objective": "Infrastructuur als code, continue leveringspipelines en reproduceerbare omgevingen implementeren met beveiliging en governance.",
+      "services": [
+        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
+        "Configuratie-automatisering: Ansible, Chef, Puppet, SaltStack",
+        "Enterprise CI/CD: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
+        "GitOps: ArgoCD, FluxCD voor declaratieve deployment",
+        "Containerisatie: Docker, containerd, Podman",
+        "Orchestratie: Kubernetes, Nomad, Docker Swarm",
+        "Cloud: AWS, Azure, GCP met well-architected architecturen"
+      ],
+      "practices": [
+        "GitOps met automatische rollback en approval gates",
+        "Onveranderlijke en geversionde infrastructuur",
+        "Pipeline as Code met herbruikbare templates",
+        "Security scanning in alle fasen (SAST, DAST, SCA)",
+        "Strategische multi-cloud en hybrid cloud",
+        "Service Mesh: Istio, Linkerd voor observability",
+        "Secret management: HashiCorp Vault, AWS Secrets Manager",
+        "YAML voor Kubernetes-configuratie en orchestratie",
+        "Operationele ondersteuning met k9s voor clusterbeheer"
+      ],
+      "results": [
+        "Frequente en voorspelbare deployments (meerdere per dag)",
+        "Disaster recovery in minuten",
+        "Consistentie tussen omgevingen (dev, staging, prod)",
+        "Geoptimaliseerde kosten met auto-scaling",
+        "Geautomatiseerde compliance met beleid",
+        "99.9% uptime in gecontaineriseerde omgevingen"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: Observability",
+      "subtitle": "Enterprise Monitoring & Telemetrie",
+      "objective": "Volledige zichtbaarheid, proactieve detectie en bruikbare inzichten bieden via real-time telemetrie.",
+      "services": [
+        "Implementatie van volledige observability: metrieken, logs, traces",
+        "Enterprise dashboards: Grafana, New Relic",
+        "Synthetische monitoring en gebruikerservaringcontroles"
+      ],
+      "practices": [
+        "Observability as Code met geversionde configuratie",
+        "Grafana en Prometheus voor aangepaste metrieken",
+        "4 Golden Signals + RED en USE-methodologieën",
+        "SLO/SLI/SLA-definitie en error budget-tracking",
+        "Gebeurteniscorrelatie tussen systemen"
+      ],
+      "results": [
+        "Volledige zichtbaarheid van de tech-stack",
+        "Intelligente alerts met laag ruisniveau",
+        "Data-gedreven besluitvorming in real-time",
+        "Problemen gedetecteerd voor gebruikers"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: Betrouwbaarheid",
+      "subtitle": "Site Reliability Engineering",
+      "objective": "Betrouwbaarheid, veerkracht en voorspelbare operaties garanderen via systematische engineering en automatisering.",
+      "services": [
+        "Definitie en implementatie van SLI's, SLO's, SLA's",
+        "Incidentmanagement met playbooks en war rooms",
+        "Post-mortems met blameless culture en action items",
+        "Capacity planning en performance forecasting",
+        "Chaos engineering en resilience testing",
+        "Operationele automatisering (chatops, geautomatiseerde runbooks)",
+        "Orchestratie van gedistribueerde systemen met messaging"
+      ],
+      "practices": [
+        "Error budget management en bewuste afwegingen",
+        "Game days en failure injection testing",
+        "Uitvoerbare runbooks met auto-remediation",
+        "Toil reduction via automatisering",
+        "Canary deployments en feature flagging",
+        "Service Level Objectives met meerdere dimensies",
+        "Incident response met geautomatiseerde escalatie",
+        "Apache Kafka-integratie in event-driven architecturen",
+        "Veerkracht in messaging-verwerkingssystemen"
+      ],
+      "results": [
+        "Beschikbaarheid >99.95% voor kritieke services",
+        "Voorspelbare en schaalbare operaties",
+        "Meer dan 70% reductie in handmatig werk",
+        "Continue leer cultuur via incidenten",
+        "Hoog beschikbare messaging-systemen"
+      ]
+    },
+    "enterprise1": {
+      "title": "Enterprise 1: Cloud & Messaging",
+      "subtitle": "Serverless & Event-Driven Architectuur",
+      "objective": "Maximaliseer het gebruik van beheerde cloudservices en messaging-systemen voor schaalbare event-driven architecturen.",
+      "services": [
+        "Serverless-first architectuur met AWS Lambda, Azure Functions",
+        "Serverless containerisatie: AWS Fargate, Azure Container Instances",
+        "Enterprise observability: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "Event-driven architecturen met beheerde services (EventBridge, SQS)",
+        "Beheerde databases: RDS, Aurora, Azure SQL Managed Instance",
+        "Orchestratie van gedistribueerde systemen met Apache Kafka"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "Karpenter voor serverless resourcemanagement",
+        "Infrastructure as Code met herbruikbare modules",
+        "Event-driven ontwerppatronen met beheerde services",
+        "Fargate met auto-scaling gebaseerd op aangepaste metrieken",
+        "Apache Kafka voor grootschalige verwerking",
+        "RabbitMQ voor integratie tussen microservices"
+      ],
+      "results": [
+        "Meer dan 70% reductie in operationele overhead",
+        "Time-to-market voor nieuwe services in uren",
+        "Automatische schaling op aanvraag",
+        "Operaties beheerd door cloudproviders",
+        "Team focus op features, niet infrastructuur",
+        "Bewezen veerkracht in meerdere regio's",
+        "Zeer schaalbare event-driven architecturen"
+      ]
+    },
+    "enterprise2": {
+      "title": "Enterprise 2: AI & Automatisering",
+      "subtitle": "Generatieve AI & Intelligente Verwerking",
+      "objective": "AI-oplossingen implementeren die complexe processen automatiseren, productiviteit verhogen en strategische inzichten genereren.",
+      "services": [
+        "Integratie van generatieve AI in enterprise systemen",
+        "Model Context Protocol (MCP) voor veilige integratie",
+        "Procesautomatisering met intelligente RPA",
+        "Enterprise assistenten met retrieval-augmented generation (RAG)",
+        "Fine-tuning van modellen voor specifieke domeinen",
+        "Computer vision en natuurlijke taalverwerking"
+      ],
+      "practices": [
+        "RAG (Retrieval-Augmented Generation) met vectorisatie",
+        "Context management en security guardrails",
+        "Geavanceerde prompt engineering en chain-of-thought",
+        "LLM Ops: versioning, monitoring, evaluatie",
+        "Continue model evaluatie en drift detectie"
+      ],
+      "results": [
+        "Automatisering van handmatige processen (70%+ reductie)",
+        "Snellere besluitvorming met AI-inzichten",
+        "Verhoogde productiviteit met intelligente assistenten",
+        "Versnelde innovatie met snelle prototyping",
+        "Governance en compliance in AI-oplossingen",
+        "Geïntegreerde datapijplijn met messaging-systemen"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: Kritieke Missie",
+      "subtitle": "Enterprise Architectuur & Beveiliging",
+      "objective": "Kritieke systemen bedienen met extreme vereisten voor beveiliging, compliance, beschikbaarheid en prestaties.",
+      "services": [
+        "Architectuur van grootschalige gedistribueerde systemen",
+        "DevSecOps met shift-left en shift-right beveiliging",
+        "Technische audits en compliance (ISO, SOC2, GDPR, LGPD)",
+        "Hoge beschikbaarheid architecturen in meerdere regio's",
+        "Enterprise business continuity en disaster recovery",
+        "Performance engineering voor transaction-heavy systemen",
+        "Messaging-systemen voor kritieke financiële operaties"
+      ],
+      "practices": [
+        "Zero Trust Architecture met micro-segmentatie",
+        "Security by design in alle componenten",
+        "Veerkrachtige infrastructuur met failure domains",
+        "Levende documentatie met architectural decision records",
+        "Frameworks: TOGAF, Zachman voor enterprise architectuur",
+        "Continue penetratietesten en bug bounty programma's",
+        "End-to-end encryptie en confidential computing",
+        "Apache Kafka voor hoog beschikbare financiële systemen",
+        "RabbitMQ met clustering en mirroring voor hoge beschikbaarheid"
+      ],
+      "results": [
+        "Gegarandeerde compliance met regelgeving",
+        "Beschikbaarheid >99.99% voor kritieke missies",
+        "Proactieve beveiliging met threat intelligence",
+        "Bewezen veerkracht in stresstesten",
+        "Complete governance met audittrails",
+        "Messaging-systemen met leveringsgarantie voor kritieke transacties"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • AI • Cloud Native • Security • Messaging",
+    "title": {
+      "before": "Betrouwbare software,",
+      "highlight": "geautomatiseerde infrastructuur",
+      "after": "en veerkrachtige operaties"
+    },
+    "subtitle": "We combineren software engineering, DevOps, SRE, AI, messaging (Kafka/RabbitMQ) en agile methoden om stabiele, schaalbare en veilige systemen te leveren voor kritieke omgevingen.",
+    "cta": {
+      "primary": "Technische diagnose aanvragen",
+      "secondary": "Met een specialist praten"
+    },
+    "trust": "Technologieën en praktijken die we gebruiken"
+  },
+  "footer": {
+    "description": "Strategische technologiepartner, gericht op betrouwbaarheid, schaalbaarheid, automatisering, messaging, beveiliging en continue waardeoplevering.",
+    "location": "São Paulo, Brazilië",
+    "sections": {
+      "services": "Diensten",
+      "company": "Bedrijf",
+      "resources": "Bronnen"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "Over",
+      "careers": "Carrière",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "resources": {
+      "docs": "Documentatie",
+      "caseStudies": "Case Studies",
+      "whitepapers": "Whitepapers",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Klaar om uw infrastructuur te transformeren?",
+      "subtitle": "Neem contact op en ontdek hoe we uw bedrijf kunnen helpen nieuwe niveaus van betrouwbaarheid en efficiëntie te bereiken.",
+      "primary": "Diagnose aanvragen",
+      "secondary": "Met een specialist praten"
+    },
+    "rights": "Alle rechten voorbehouden."
+  }
+}

@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "services": "서비스",
+    "contact": "연락처"
+  },
+  "actions": {
+    "getStarted": "시작하기"
+  },
+  "servicesSection": {
+    "label": "// 서비스",
+    "title": "필요에 따라 구성된",
+    "highlight": "플랜",
+    "description": "기본 지원부터 미션 크리티컬 운영까지, 귀사 성숙도와 요구사항에 따라 진화하는 플랜을 제공합니다.",
+    "categories": {
+      "essential": "Essential",
+      "essentialDescription": "스타트업 및 중소기업을 위한 핵심 서비스",
+      "professional": "Professional",
+      "professionalDescription": "성장 중인 기업을 위한 고급 솔루션",
+      "enterprise": "Enterprise",
+      "enterpriseDescription": "대규모 조직을 위한 엔터프라이즈급 솔루션"
+    }
+  },
+  "plans": {
+    "labels": {
+      "objective": "목표",
+      "services": "서비스",
+      "practices": "실무 & 기술",
+      "results": "기대 결과"
+    },
+    "essential1": {
+      "title": "Essential 1: 지원",
+      "subtitle": "유지보수 & 운영 안정성",
+      "objective": "기존 시스템에서 운영 연속성, 안정성 및 사건의 사전적 감소를 보장합니다.",
+      "services": [
+        "레거시 및 현대 시스템의 수정적 및 진화적 유지보수",
+        "코드 리팩토링 및 기술 부채 감소",
+        "의존성 관리 및 보안 업데이트",
+        "비동기 프로세스를 위한 메시징 솔루션 구현"
+      ],
+      "practices": [
+        "언어: C#, Java, PHP, JavaScript/TypeScript, Python",
+        "프레임워크: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
+        "버전 관리: 구조화된 워크플로우를 갖춘 Git",
+        "기술 체크리스트를 통한 체계적인 코드 리뷰",
+        "유지되는 단위 테스트 및 통합 테스트"
+      ],
+      "results": [
+        "중요 사건 40% 이상 감소",
+        "안정적이고 예측 가능한 환경",
+        "더 깨끗하고 지속 가능한 코드"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: 개발",
+      "subtitle": "신규 프로젝트 & 기능",
+      "objective": "현대적 아키텍처, 보장된 품질, 지속적인 가치 제공을 통한 혁신적 솔루션을 개발합니다.",
+      "services": [
+        "새로운 기능 및 모듈 개발",
+        "현대적 아키텍처를 갖춘 그린필드 시스템 구현",
+        "레거시 시스템에서 현대 기술로의 전략적 마이그레이션",
+        "REST/GraphQL API 및 마이크로서비스 아키텍처 통합",
+        "확장 가능한 아키텍처 설계 및 구현 (이벤트 기반, CQRS)"
+      ],
+      "practices": [
+        "바운디드 컨텍스트를 갖춘 DDD (도메인 주도 설계)",
+        "TDD (테스트 주도 개발) 및 BDD (행동 주도 개발)",
+        "자동화된 파이프라인을 통한 기본 CI/CD",
+        "프론트엔드 프레임워크: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI 라이브러리: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "헥사고날 아키텍처 및 클린 아키텍처",
+        "애자일 방법론, 스크럼, 계획, 동기화, 백로그 정제, Jira, 코드 리뷰",
+        "복잡성에 대한 페어 프로그래밍 및 몹 프로그래밍",
+        "살아있는 기술 문서 (Swagger/OpenAPI, Archimate)",
+        "대규모 시스템에 적용된 디자인 패턴"
+      ],
+      "results": [
+        "출시 시간 30-50% 단축",
+        "높은 테스트 커버리지를 갖춘 솔루션 (>80%)",
+        "지속 가능하고 발전하기 쉬운 아키텍처",
+        "낮은 결합도와 높은 응집력을 갖춘 코드",
+        "측정 가능한 가치의 지속적 제공"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: 데이터 & 통합",
+      "subtitle": "데이터베이스 & 메시징",
+      "objective": "데이터 성능을 최적화하고 비동기 통합을 위한 신뢰할 수 있는 메시징 시스템을 구현합니다.",
+      "services": [
+        "쿼리 및 실행 계획의 고급 최적화",
+        "동기/비동기 복제 및 고가용성 (HA)",
+        "정의된 RTO/RPO를 갖춘 재해 복구",
+        "차원 모델링 및 최적화된 스키마 설계",
+        "시스템 통합을 위한 메시징 시스템 구현",
+        "레거시와 현대 플랫폼 간 데이터 마이그레이션"
+      ],
+      "practices": [
+        "DBMS: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
+        "메시징: 이벤트 처리를 위한 RabbitMQ, Apache Kafka",
+        "모니터링: 쿼리 성능 인사이트, 데드락, 대기 통계",
+        "전략적 백업: 전체, 차등, 트랜잭션 로그",
+        "지능형 인덱싱 및 파티셔닝",
+        "고급 저장 프로시저, 트리거 및 T-SQL 최적화",
+        "비동기 처리를 위한 RabbitMQ 통합"
+      ],
+      "results": [
+        "최적화된 성능 (지연 시간 60% 이상 감소)",
+        "적절한 확장을 통한 최적화된 운영 비용",
+        "데이터 가용성 >99.9%",
+        "재해 시나리오에서 보장된 복구",
+        "성장을 위한 예측 가능한 확장성",
+        "RabbitMQ를 통한 신뢰할 수 있는 비동기 처리"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: 인프라",
+      "subtitle": "DevOps, IaC & 자동화",
+      "objective": "보안 및 거버넌스를 갖춘 코드로서의 인프라, 지속적 전달 파이프라인 및 재현 가능한 환경을 구현합니다.",
+      "services": [
+        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
+        "구성 자동화: Ansible, Chef, Puppet, SaltStack",
+        "엔터프라이즈 CI/CD: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
+        "GitOps: 선언적 배포를 위한 ArgoCD, FluxCD",
+        "컨테이너화: Docker, containerd, Podman",
+        "오케스트레이션: Kubernetes, Nomad, Docker Swarm",
+        "클라우드: 잘 구성된 아키텍처를 갖춘 AWS, Azure, GCP"
+      ],
+      "practices": [
+        "자동 롤백 및 승인 게이트를 갖춘 GitOps",
+        "변경 불가능하고 버전 관리된 인프라",
+        "재사용 가능한 템플릿을 통한 Pipeline as Code",
+        "모든 단계에서의 보안 스캐닝 (SAST, DAST, SCA)",
+        "전략적 멀티 클라우드 및 하이브리드 클라우드",
+        "서비스 메시: 가시성을 위한 Istio, Linkerd",
+        "시크릿 관리: HashiCorp Vault, AWS Secrets Manager",
+        "Kubernetes 구성 및 오케스트레이션을 위한 YAML",
+        "클러스터 관리를 위한 k9s를 통한 운영 지원"
+      ],
+      "results": [
+        "빈번하고 예측 가능한 배포 (하루 여러 번)",
+        "몇 분 내 재해 복구",
+        "환경 간 일관성 (개발, 스테이징, 프로덕션)",
+        "자동 확장을 통한 최적화된 비용",
+        "정책에 대한 자동화된 준수",
+        "컨테이너화 환경에서 99.9% 가동 시간"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: 가시성",
+      "subtitle": "엔터프라이즈 모니터링 & 원격 측정",
+      "objective": "실시간 원격 측정을 통한 완전한 가시성, 사전 탐지 및 실행 가능한 통찰력을 제공합니다.",
+      "services": [
+        "완전한 가시성 구현: 메트릭, 로그, 추적",
+        "엔터프라이즈 대시보드: Grafana, New Relic",
+        "합성 모니터링 및 사용자 경험 확인"
+      ],
+      "practices": [
+        "버전 관리 구성을 통한 Observability as Code",
+        "사용자 정의 메트릭을 위한 Grafana 및 Prometheus",
+        "4 Golden Signals + RED 및 USE 방법론",
+        "SLO/SLI/SLA 정의 및 에러 예산 추적",
+        "시스템 간 이벤트 상관 관계"
+      ],
+      "results": [
+        "기술 스택의 완전한 가시성",
+        "낮은 노이즈를 갖춘 지능형 경고",
+        "실시간 데이터 기반 의사 결정",
+        "사용자보다 먼저 문제 감지"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: 신뢰성",
+      "subtitle": "사이트 신뢰성 엔지니어링",
+      "objective": "체계적인 엔지니어링과 자동화를 통한 신뢰성, 복원력 및 예측 가능한 운영을 보장합니다.",
+      "services": [
+        "SLI, SLO, SLA의 정의 및 구현",
+        "플레이북 및 워룸을 통한 사고 관리",
+        "비난 없는 문화와 실행 항목을 갖춘 사후 분석",
+        "용량 계획 및 성능 예측",
+        "카오스 엔지니어링 및 복원력 테스트",
+        "운영 자동화 (챗옵스, 자동화된 런북)",
+        "메시징을 통한 분산 시스템 오케스트레이션"
+      ],
+      "practices": [
+        "에러 예산 관리 및 의식적인 절충",
+        "게임 데이 및 장애 주입 테스트",
+        "자동 수정을 갖춘 실행 가능한 런북",
+        "자동화를 통한 수동 작업 감소",
+        "카나리아 배포 및 기능 플래그",
+        "다중 차원의 서비스 수준 목표",
+        "자동화된 에스컬레이션을 갖춘 사고 대응",
+        "이벤트 기반 아키텍처에서의 Apache Kafka 통합",
+        "메시지 처리 시스템의 복원력"
+      ],
+      "results": [
+        "중요 서비스 가용성 >99.95%",
+        "예측 가능하고 확장 가능한 운영",
+        "수동 작업 70% 이상 감소",
+        "사고를 통한 지속적 학습 문화",
+        "고가용성 메시징 시스템"
+      ]
+    },
+    "enterprise1": {
+      "title": "Enterprise 1: 클라우드 & 메시징",
+      "subtitle": "서버리스 & 이벤트 기반 아키텍처",
+      "objective": "관리형 클라우드 서비스 및 메시징 시스템 사용을 극대화하여 확장 가능한 이벤트 기반 아키텍처를 실현합니다.",
+      "services": [
+        "AWS Lambda, Azure Functions를 통한 서버리스 퍼스트 아키텍처",
+        "서버리스 컨테이너화: AWS Fargate, Azure Container Instances",
+        "엔터프라이즈 가시성: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "관리형 서비스를 통한 이벤트 기반 아키텍처 (EventBridge, SQS)",
+        "관리형 데이터베이스: RDS, Aurora, Azure SQL Managed Instance",
+        "Apache Kafka를 통한 분산 시스템 오케스트레이션"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "서버리스 리소스 관리를 위한 Karpenter",
+        "재사용 가능 모듈을 통한 Infrastructure as Code",
+        "관리형 서비스를 통한 이벤트 기반 디자인 패턴",
+        "사용자 정의 메트릭 기반 Fargate 자동 확장",
+        "대규모 처리를 위한 Apache Kafka",
+        "마이크로서비스 간 통합을 위한 RabbitMQ"
+      ],
+      "results": [
+        "운영 오버헤드 70% 이상 감소",
+        "새 서비스 출시 시간 단축 (시간 단위)",
+        "수요에 따른 자동 확장",
+        "클라우드 공급자가 관리하는 운영",
+        "인프라가 아닌 기능에 초점을 맞춘 팀",
+        "다중 리전에서 입증된 복원력",
+        "매우 확장 가능한 이벤트 기반 아키텍처"
+      ]
+    },
+    "enterprise2": {
+      "title": "Enterprise 2: AI & 자동화",
+      "subtitle": "생성 AI & 지능형 처리",
+      "objective": "복잡한 프로세스를 자동화하고 생산성을 높이며 전략적 통찰력을 생성하는 AI 솔루션을 구현합니다.",
+      "services": [
+        "엔터프라이즈 시스템에 생성 AI 통합",
+        "안전한 통합을 위한 모델 컨텍스트 프로토콜 (MCP)",
+        "지능형 RPA를 통한 프로세스 자동화",
+        "검색 증강 생성 (RAG)을 갖춘 엔터프라이즈 어시스턴트",
+        "특정 도메인을 위한 모델 미세 조정",
+        "컴퓨터 비전 및 자연어 처리"
+      ],
+      "practices": [
+        "벡터화를 통한 RAG (검색 증강 생성)",
+        "컨텍스트 관리 및 보안 가드레일",
+        "고급 프롬프트 엔지니어링 및 사고 연쇄",
+        "LLM 운영: 버전 관리, 모니터링, 평가",
+        "지속적 모델 평가 및 드리프트 감지"
+      ],
+      "results": [
+        "수동 프로세스 자동화 (70% 이상 감소)",
+        "AI 통찰력을 통한 빠른 의사 결정",
+        "지능형 어시스턴트를 통한 생산성 향상",
+        "신속한 프로토타이핑을 통한 가속화된 혁신",
+        "AI 솔루션에서의 거버넌스 및 규정 준수",
+        "메시징 시스템과 통합된 데이터 파이프라인"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: 미션 크리티컬",
+      "subtitle": "엔터프라이즈 아키텍처 & 보안",
+      "objective": "보안, 규정 준수, 가용성 및 성능에 대한 극한 요구사항을 갖춘 중요한 시스템을 운영합니다.",
+      "services": [
+        "대규모 분산 시스템 아키텍처",
+        "좌측 및 우측 보안을 갖춘 DevSecOps",
+        "기술 감사 및 규정 준수 (ISO, SOC2, GDPR, LGPD)",
+        "다중 리전 고가용성 아키텍처",
+        "엔터프라이즈 비즈니스 연속성 및 재해 복구",
+        "고부하 트랜잭션 시스템 성능 엔지니어링",
+        "중요 금융 운영을 위한 메시징 시스템"
+      ],
+      "practices": [
+        "마이크로 세그멘테이션을 통한 제로 트러스트 아키텍처",
+        "모든 구성 요소에서의 보안 설계",
+        "장애 도메인을 갖춘 복원력 있는 인프라",
+        "아키텍처 결정 기록을 통한 살아있는 문서화",
+        "엔터프라이즈 아키텍처를 위한 프레임워크: TOGAF, Zachman",
+        "지속적 침투 테스트 및 버그 바운티 프로그램",
+        "종단간 암호화 및 기밀 컴퓨팅",
+        "고가용성 금융 시스템을 위한 Apache Kafka",
+        "고가용성을 위한 클러스터링 및 미러링을 갖춘 RabbitMQ"
+      ],
+      "results": [
+        "규제에 대한 보장된 규정 준수",
+        "미션 크리티컬 가용성 >99.99%",
+        "위협 인텔리전스를 통한 사전 예방적 보안",
+        "스트레스 테스트에서 입증된 복원력",
+        "감사 추적을 통한 완전한 거버넌스",
+        "중요 거래를 위한 배송 보장을 갖춘 메시징 시스템"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • AI • 클라우드 네이티브 • 보안 • 메시징",
+    "title": {
+      "before": "신뢰할 수 있는 소프트웨어,",
+      "highlight": "자동화된 인프라",
+      "after": "복원력 있는 운영"
+    },
+    "subtitle": "소프트웨어 엔지니어링, DevOps, SRE, AI, 메시징 (Kafka/RabbitMQ) 및 애자일 방법론을 결합하여 중요한 환경을 위한 안정적이고 확장 가능하며 안전한 시스템을 제공합니다.",
+    "cta": {
+      "primary": "기술 진단 요청",
+      "secondary": "전문가와 상담"
+    },
+    "trust": "저희가 사용하는 기술 및 실무"
+  },
+  "footer": {
+    "description": "신뢰성, 확장성, 자동화, 메시징, 보안 및 지속적 가치 제공에 중점을 둔 전략적 기술 파트너입니다.",
+    "location": "상파울루, 브라질",
+    "sections": {
+      "services": "서비스",
+      "company": "회사",
+      "resources": "리소스"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "회사 소개",
+      "careers": "채용",
+      "blog": "블로그",
+      "contact": "연락처"
+    },
+    "resources": {
+      "docs": "문서",
+      "caseStudies": "사례 연구",
+      "whitepapers": "백서",
+      "status": "상태"
+    },
+    "cta": {
+      "title": "인프라를 변환할 준비가 되셨나요?",
+      "subtitle": "연락하여 귀사가 신뢰성과 효율성의 새로운 수준에 도달할 수 있도록 저희가 어떻게 도울 수 있는지 알아보세요.",
+      "primary": "진단 요청",
+      "secondary": "전문가와 상담"
+    },
+    "rights": "모든 권리 보유."
+  }
+}
