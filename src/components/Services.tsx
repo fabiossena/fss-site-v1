@@ -10,56 +10,54 @@ import {
   Shield,
   Brain,
   Building2,
+  Cloud
 } from "lucide-react";
 
 const plansConfig = [
   {
-    key: "essential",
+    key: "essential1",
     icon: Wrench,
     colorClass: "bg-plan-essential",
-    title: "Essential",
   },
   {
-    key: "projects",
+    key: "essential2",
     icon: Layers,
     colorClass: "bg-plan-projects",
-    title: "Projects & New Features",
   },
   {
-    key: "data",
+    key: "essential3",
     icon: Database,
     colorClass: "bg-plan-data",
-    title: "Data & Performance",
   },
   {
-    key: "professional",
+    key: "professional1",
     icon: Rocket,
     colorClass: "bg-plan-professional",
-    title: "Professional",
   },
   {
-    key: "observability",
+    key: "professional2",
     icon: Activity,
     colorClass: "bg-plan-observability",
-    title: "Observability & Monitoring",
   },
   {
-    key: "sre",
+    key: "professional3",
     icon: Shield,
     colorClass: "bg-plan-sre",
-    title: "SRE",
   },
   {
-    key: "ai",
+    key: "enterprise1",
+    icon: Cloud,
+    colorClass: "bg-plan-cloud",
+  },
+  {
+    key: "enterprise2",
     icon: Brain,
     colorClass: "bg-plan-ai",
-    title: "AI & Automation",
   },
   {
-    key: "enterprise",
+    key: "enterprise3",
     icon: Building2,
     colorClass: "bg-plan-enterprise",
-    title: "Enterprise",
   },
 ];
 

@@ -20,12 +20,15 @@ const Footer = () => {
 
   const links = {
     services: [
-      "essential",
-      "professional",
-      "sre",
-      "dataPerformance",
-      "aiAutomation",
-      "enterprise",
+      "essential1",
+      "essential2",
+      "essential3",
+      "professional1",
+      "professional2",
+      "professional3",
+      "enterprise1",
+      "enterprise2",
+      "enterprise3",
     ],
     company: ["about", "careers", "blog", "contact"],
     resources: ["docs", "caseStudies", "whitepapers", "status"],
@@ -76,7 +79,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Services */}
           <div>
             <h4 className="font-semibold mb-4">
               {t("footer.sections.services")}
@@ -95,7 +97,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company */}
           <div>
             <h4 className="font-semibold mb-4">
               {t("footer.sections.company")}
@@ -114,7 +115,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
           <div>
             <h4 className="font-semibold mb-4">
               {t("footer.sections.resources")}
@@ -134,7 +134,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* CTA */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

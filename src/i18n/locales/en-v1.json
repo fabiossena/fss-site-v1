@@ -6,19 +6,17 @@
   "actions": {
     "getStarted": "Get Started"
   },
+  "section": {
+    "tag": "// SERVICES",
+    "title": "Plans organized by",
+    "highlight": "need",
+    "description": "From basic support to mission-critical operations, we offer plans that evolve with your company’s maturity and needs."
+  },
   "servicesSection": {
     "label": "// SERVICES",
     "title": "Plans organized by",
     "highlight": "need",
-    "description": "From basic support to mission-critical operations, we offer plans that evolve with your company's maturity and needs.",
-    "categories": {
-      "essential": "Essential",
-      "essentialDescription": "Core services for startups and small businesses",
-      "professional": "Professional",
-      "professionalDescription": "Advanced solutions for growing companies",
-      "enterprise": "Enterprise",
-      "enterpriseDescription": "Enterprise-grade solutions for large organizations"
-    }
+    "description": "From basic support to mission-critical operations, we offer plans that evolve with your company’s maturity and needs."
   },
   "plans": {
     "labels": {
@@ -34,20 +32,25 @@
       "services": [
         "Corrective and evolutionary maintenance of legacy and modern systems",
         "Code refactoring and technical debt reduction",
-        "Dependency management and security updates",
-        "Implementation of messaging solutions for asynchronous processing"
+        "Specialized technical support across multiple layers (L1 to L3)",
+        "Administration and optimization of relational and NoSQL databases",
+        "Dependency management and security updates"
       ],
       "practices": [
-        "Languages: C#, Java, PHP, JavaScript/TypeScript, Python",
-        "Frameworks: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
-        "Version control: Git with structured workflows",
+        "Languages: C#, Java, Python, PHP, Go, JavaScript/TypeScript",
+        "Frameworks: .NET Core/6+, Spring Boot, Django, Laravel, React, Vue.js",
+        "Version control: Git with structured workflows (GitFlow, GitHub Flow)",
         "Systematic code reviews with technical checklists",
+        "Basic monitoring (logs, application metrics)",
+        "Automated backups and restore testing",
         "Maintained unit and integration tests"
       ],
       "results": [
         "Over 40% reduction in critical incidents",
         "Stable and predictable environments",
-        "Cleaner, more maintainable codebases"
+        "Optimized MTTR (Mean Time To Resolution)",
+        "Cleaner, more maintainable codebases",
+        "Compliance with operational SLAs"
       ]
     },
     "essential2": {
@@ -69,8 +72,7 @@
         "UI libraries: Material UI, Ant Design, Lucide, Tailwind UI",
         "Hexagonal architecture and clean architecture principles",
         "Pair programming and mob programming for complex scenarios",
-        "Living technical documentation (Swagger/OpenAPI, Archimate)",
-        "Design Patterns applied to large-scale systems"
+        "Living technical documentation (Swagger/OpenAPI, Archimate)"
       ],
       "results": [
         "30–50% reduction in time-to-market",
@@ -81,33 +83,27 @@
       ]
     },
     "essential3": {
-      "title": "Essential 3: Data & Integration",
-      "subtitle": "Databases & Messaging",
-      "objective": "Optimize data performance and implement reliable messaging systems for asynchronous integration.",
+      "title": "Essential 3: Data",
+      "subtitle": "Databases & Scalability",
+      "objective": "Optimize performance, ensure horizontal and vertical scalability, and guarantee data resilience across diverse workloads.",
       "services": [
         "Advanced query and execution plan optimization",
         "Synchronous/asynchronous replication and high availability (HA)",
         "Disaster Recovery with defined RTO/RPO",
-        "Dimensional modeling and optimized schema design",
-        "Implementation of messaging systems for system integration",
-        "Data migration between legacy and modern platforms",
-        "RabbitMQ integration for asynchronous processing"
+        "Dimensional modeling and optimized schema design"
       ],
       "practices": [
-        "Databases: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
-        "Messaging: RabbitMQ, Apache Kafka for event processing",
+        "Databases: PostgreSQL, MySQL, SQL Server, Redis",
         "Monitoring: query performance insights, deadlocks, wait statistics",
         "Strategic backups: full, differential, transaction logs",
-        "Intelligent indexing and partitioning",
-        "Advanced Stored Procedures, triggers, and T-SQL optimization"
+        "Intelligent indexing and partitioning"
       ],
       "results": [
         "Optimized performance (60%+ latency reduction)",
         "Lower operational costs through efficient scaling",
         "Data availability above 99.9%",
         "Guaranteed recovery in disaster scenarios",
-        "Predictable scalability for growth",
-        "Reliable asynchronous processing with RabbitMQ"
+        "Predictable scalability for growth"
       ]
     },
     "professional1": {
@@ -130,17 +126,14 @@
         "Security scanning at every stage (SAST, DAST, SCA)",
         "Strategic multi-cloud and hybrid cloud architectures",
         "Service mesh: Istio, Linkerd for observability",
-        "Secrets management: HashiCorp Vault, AWS Secrets Manager",
-        "YAML for Kubernetes configuration and orchestration",
-        "Operational support with k9s for cluster management"
+        "Secrets management: HashiCorp Vault, AWS Secrets Manager"
       ],
       "results": [
         "Frequent and predictable deployments (multiple per day)",
         "Disaster recovery in minutes",
         "Consistency across environments (dev, staging, prod)",
         "Optimized costs through auto-scaling",
-        "Automated compliance with policies",
-        "99.9% uptime in containerized environments"
+        "Automated compliance with policies"
       ]
     },
     "professional2": {
@@ -149,21 +142,27 @@
       "objective": "Provide full visibility, proactive detection, and actionable insights through real-time telemetry.",
       "services": [
         "End-to-end observability implementation: metrics, logs, traces",
-        "Enterprise dashboards: Grafana, New Relic",
+        "Enterprise dashboards: Grafana, New Relic, Datadog, Dynatrace",
+        "APM (Application Performance Monitoring) and RUM (Real User Monitoring)",
+        "Intelligent alerting with machine learning and anomaly detection",
+        "Distributed tracing: Jaeger, Zipkin, AWS X-Ray",
         "Synthetic monitoring and user experience checks"
       ],
       "practices": [
-        "Observability as Code with versioned configuration",
-        "Grafana and Prometheus for custom metrics",
+        "OpenTelemetry for standardized instrumentation",
         "4 Golden Signals plus RED and USE methodologies",
+        "Log aggregation: ELK Stack, Loki, Splunk",
         "SLO/SLI/SLA definition and error budget tracking",
-        "Cross-system event correlation"
+        "AIOps for automated anomaly detection",
+        "Cross-system event correlation",
+        "Observability as Code with versioned configuration"
       ],
       "results": [
+        "MTTD (Mean Time To Detect) reduced to minutes",
+        "Full visibility across the technology stack",
         "High-signal, low-noise alerting",
         "Real-time, data-driven decision making",
-        "Issues detected before users are impacted",
-        "Proactive monitoring of messaging systems"
+        "Issues detected before users are impacted"
       ]
     },
     "professional3": {
@@ -176,8 +175,7 @@
         "Blameless post-mortems with actionable follow-ups",
         "Capacity planning and performance forecasting",
         "Chaos engineering and resilience testing",
-        "Operational automation (chatops, automated runbooks)",
-        "Orchestration of distributed systems with messaging"
+        "Operational automation (chatops, automated runbooks)"
       ],
       "practices": [
         "Error budget management and conscious trade-offs",
@@ -186,38 +184,34 @@
         "Toil reduction through automation",
         "Canary deployments and feature flagging",
         "Multi-dimensional Service Level Objectives",
-        "Incident escalation and automated response",
-        "Apache Kafka integration in event-driven architectures",
-        "Resilience in message processing systems"
+        "Automated incident escalation and response"
       ],
       "results": [
         "Availability above 99.95% for critical services",
+        "Optimized MTTR (Mean Time To Resolve)",
         "Predictable and scalable operations",
         "Over 70% reduction in manual toil",
-        "Continuous learning culture driven by incidents",
-        "Highly available messaging systems"
+        "Continuous learning culture driven by incidents"
       ]
     },
     "enterprise1": {
-      "title": "Enterprise 1: Cloud & Messaging",
-      "subtitle": "Serverless & Event-Driven Architecture",
-      "objective": "Maximize the use of managed cloud services and messaging systems for scalable event-driven architectures.",
+      "title": "Enterprise 1: Cloud Optimization",
+      "subtitle": "Serverless & Managed Services Excellence",
+      "objective": "Maximize the use of managed cloud services to achieve extreme operational efficiency, reduced overhead, and business focus.",
       "services": [
         "Serverless-first architecture with AWS Lambda and Azure Functions",
         "Serverless containers: AWS Fargate, Azure Container Instances",
         "Enterprise observability: AWS CloudWatch, Azure Monitor, Grafana Cloud",
         "Event-driven architectures using managed services (EventBridge, SQS)",
-        "Managed databases: RDS, Aurora, Azure SQL Managed Instance",
-        "Orchestration of distributed systems with Apache Kafka"
+        "Managed databases: RDS, Aurora, Azure SQL Managed Instance"
       ],
       "practices": [
         "CloudWatch Logs Insights, Metrics, Contributor Insights",
-        "Karpenter for serverless resource management",
+        "Karpenter to manage serverless resources",
         "Infrastructure as Code with reusable modules",
         "Event-driven design patterns with managed services",
-        "Fargate auto-scaling based on custom metrics",
-        "Apache Kafka for high-scale event processing",
-        "RabbitMQ for microservices integration"
+        "Fargate with auto-scaling based on custom metrics",
+        "X-Ray distributed tracing for serverless applications"
       ],
       "results": [
         "Over 70% reduction in operational overhead",
@@ -225,19 +219,18 @@
         "Automatic scaling on demand",
         "Operations managed by cloud providers",
         "Teams focused on features, not infrastructure",
-        "Proven resilience across multiple regions",
-        "Highly scalable event-driven architectures"
+        "Proven resilience across multiple regions"
       ]
     },
     "enterprise2": {
-      "title": "Enterprise 2: AI & Automation",
-      "subtitle": "Generative AI & Intelligent Processing",
+      "title": "Enterprise 2: AI",
+      "subtitle": "Generative AI & Cognitive Automation",
       "objective": "Implement AI solutions that automate complex processes, boost productivity, and generate strategic insights.",
       "services": [
         "Integration of generative AI into enterprise systems",
-        "Model Context Protocol (MCP) for secure integration",
         "Process automation with intelligent RPA",
         "Enterprise assistants using retrieval-augmented generation (RAG)",
+        "Model Context Protocol (MCP) for secure integration",
         "Model fine-tuning for domain-specific use cases",
         "Computer vision and natural language processing"
       ],
@@ -246,6 +239,8 @@
         "Context management and security guardrails",
         "Advanced prompt engineering and reasoning chains",
         "LLM Ops: versioning, monitoring, evaluation",
+        "Frameworks: LangChain, LlamaIndex, Semantic Kernel",
+        "Model serving: vLLM, TensorFlow Serving, Triton",
         "Continuous model evaluation and drift detection"
       ],
       "results": [
@@ -253,8 +248,7 @@
         "Faster decision-making with AI-driven insights",
         "Increased productivity through intelligent assistants",
         "Accelerated innovation with rapid prototyping",
-        "Strong governance and compliance for AI solutions",
-        "Data pipeline integrated with messaging systems"
+        "Strong governance and compliance for AI solutions"
       ]
     },
     "enterprise3": {
@@ -267,8 +261,7 @@
         "Technical audits and compliance (ISO, SOC2, GDPR, LGPD)",
         "Multi-region high-availability architectures",
         "Enterprise business continuity and disaster recovery",
-        "Performance engineering for transaction-heavy systems",
-        "Messaging systems for critical financial operations"
+        "Performance engineering for transaction-heavy systems"
       ],
       "practices": [
         "Zero Trust Architecture with micro-segmentation",
@@ -277,22 +270,19 @@
         "Living documentation with architectural decision records",
         "Frameworks: TOGAF, Zachman for enterprise architecture",
         "Continuous penetration testing and bug bounty programs",
-        "End-to-end encryption and confidential computing",
-        "Apache Kafka for high-availability financial systems",
-        "RabbitMQ with clustering and mirroring for high availability"
+        "End-to-end encryption and confidential computing"
       ],
       "results": [
         "Guaranteed regulatory compliance",
         "Availability above 99.99% for mission-critical systems",
         "Proactive security powered by threat intelligence",
         "Proven resilience through stress testing",
-        "Full governance with comprehensive audit trails",
-        "Messaging systems with guaranteed delivery for critical transactions"
+        "Full governance with comprehensive audit trails"
       ]
     }
   },
   "hero": {
-    "badge": "DevOps • SRE • AI • Cloud Native • Security • Messaging",
+    "badge": "DevOps • SRE • AI • Cloud Native • Security",
     "title": {
       "before": "Reliable software,",
       "highlight": "automated infrastructure",
@@ -306,7 +296,7 @@
     "trust": "Technologies and practices we use"
   },
   "footer": {
-    "description": "A strategic technology partner focused on reliability, scalability, automation, messaging, security, and continuous value delivery.",
+    "description": "A strategic technology partner focused on reliability, scalability, automation, security, and continuous value delivery.",
     "location": "São Paulo, Brazil",
     "sections": {
       "services": "Services",
@@ -314,15 +304,15 @@
       "resources": "Resources"
     },
     "services": {
-      "essential1": "Essential",
-      "essential2": "Projects",
-      "essential3": "Data & Scale",
-      "professional1": "Infrastructure",
-      "professional2": "Observability",
-      "professional3": "SRE",
-      "enterprise1": "Cloud",
-      "enterprise2": "AI & Automation",
-      "enterprise3": "Enterprise"
+      "essential": "Essential",
+      "projects": "Projects",
+      "data": "Data & Scale",
+      "professional": "Infrastructure",
+      "observability": "Observability",
+      "sre": "SRE",
+      "cloud": "Cloud",
+      "ai": "AI & Automation",
+      "enterprise": "Enterprise"
     },
     "company": {
       "about": "About",

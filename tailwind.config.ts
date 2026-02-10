@@ -61,6 +61,7 @@ export default {
           enterprise: "hsl(var(--plan-enterprise))",
           projects: "hsl(var(--plan-projects))",
           observability: "hsl(var(--plan-observability))",
+          cloud: "hsl(var(--plan-cloud))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",

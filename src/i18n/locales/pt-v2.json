@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "contact": "Contato"
+  },
+  "actions": {
+    "getStarted": "Começar"
+  },
+  "section": {
+    "tag": "// SERVIÇOS",
+    "title": "Planos organizados por",
+    "highlight": "necessidade",
+    "description": "Do suporte básico à operação de missão crítica, oferecemos planos que acompanham a maturidade e as necessidades da sua empresa."
+  },
+  "servicesSection": {
+    "label": "// SERVIÇOS",
+    "title": "Planos organizados por",
+    "highlight": "necessidade",
+    "description": "Do suporte básico à operação de missão crítica, oferecemos planos que acompanham a maturidade e as necessidades da sua empresa."
+  },
+  "plans": {
+    "labels": {
+      "objective": "Objetivo",
+      "services": "Serviços",
+      "practices": "Práticas",
+      "results": "Resultado"
+    },
+    "essential": {
+      "title": "Essential 1: Desenvolvimento",
+      "subtitle": "Sustentação & Estabilidade",
+      "objective": "Garantir continuidade operacional e redução de incidentes.",
+      "services": [
+        "Manutenção e evolução de sistemas",
+        "Correções e refatorações",
+        "Suporte técnico especializado",
+        "Administração de bancos de dados"
+      ],
+      "practices": [
+        "Git",
+        "Code Review",
+        "Monitoramento",
+        "Backups"
+      ],
+      "results": [
+        "Menos falhas",
+        "Ambientes previsíveis",
+        "Maior confiabilidade"
+      ]
+    },
+    "projects": {
+      "title": "Essential 2: Desenvolvimento",
+      "subtitle": "Projetos & Novas Funcionalidades",
+      "objective": "Desenvolver soluções inovadoras e implementar novas capacidades tecnológicas.",
+      "services": [
+        "Desenvolvimento de novas funcionalidades",
+        "Implementação de sistemas do zero",
+        "Migração e modernização de sistemas legados",
+        "Integração de APIs e microsserviços",
+        "Arquitetura de software escalável"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design)",
+        "Code Review estruturado",
+        "TDD (Test Driven Development)"
+      ],
+      "results": [
+        "Soluções inovadoras",
+        "Qualidade de código elevada",
+        "Arquitetura sustentável",
+        "Boas práticas de programação"
+      ]
+    },
+    "data": {
+      "title": "Essential 3: Dados",
+      "subtitle": "Bancos e Escala",
+      "objective": "Garantir performance e crescimento sustentável dos dados.",
+      "services": [
+        "Arquitetura de bancos (OLTP, Analytics, Cache)",
+        "Tuning de queries",
+        "Replicação e alta disponibilidade",
+        "Disaster Recovery"
+      ],
+      "practices": [
+        "Escolha correta de DB",
+        "Monitoramento de latência",
+        "Backups testados",
+        "Planejamento de crescimento"
+      ],
+      "results": [
+        "Sistemas rápidos",
+        "Menor custo operacional",
+        "Dados confiáveis"
+      ]
+    },
+    "professional": {
+      "title": "Professional 1: DevOps& IaC",
+      "subtitle": "DevOps & IaC & Automação",
+      "objective": "Aumentar velocidade de entrega com segurança e padronização.",
+      "services": [
+        "Infrastructure as Code e Automação (Terraform, Ansible)",
+        "CI/CD e GitOps (GitHub Actions, ArgoCD)",
+        "Containers e Orquestração (Docker, Kubernetes)",
+        "Cloud Computing e Arquiteturas Híbridas (AWS, Azure)",
+        "Estratégias Multicloud e Portabilidade"
+      ],
+      "practices": [
+        "GitOps",
+        "Infra versionada",
+        "Deploy contínuo"
+      ],
+      "results": [
+        "Deploys mais rápidos",
+        "Menos erro humano",
+        "Escalabilidade controlada"
+      ]
+    },
+    "observability": {
+      "title": "Professional 2: Observabilidade",
+      "subtitle": "Observabilidade & Monitoramento",
+      "objective": "Prover visibilidade completa do estado e performance dos sistemas em tempo real.",
+      "services": [
+        "Implementação de dashboards Grafana/New Relic",
+        "Configuração de alertas inteligentes",
+        "Métricas, logs e traces distribuídos",
+        "Análise de comportamento de usuários"
+      ],
+      "practices": [
+        "Observabilidade (Prometheus, Grafana)",
+        "4 Golden Signals (latência, tráfego, erros, saturação)",
+        "OpenTelemetry",
+        "Log aggregation (Loki, Elastic)",
+        "Correlação de eventos"
+      ],
+      "results": [
+        "Detecção proativa de problemas",
+        "Visibilidade completa da stack",
+        "Decisões baseadas em dados"
+      ]
+    },
+    "sre": {
+      "title": "Professional 3: SRE",
+      "subtitle": "Confiabilidade & Alta Disponibilidade",
+      "objective": "Garantir que sistemas críticos sejam confiáveis, resilientes e mensuráveis.",
+      "services": [
+        "Definição de SLIs, SLOs e SLAs",
+        "Gestão de incidentes e pós-mortem",
+        "Automação de operações"
+      ],
+      "practices": [
+        "Error Budget",
+        "Testes de resiliência",
+        "Runbooks",
+        "Redução de toil"
+      ],
+      "results": [
+        "Menos downtime",
+        "Resposta rápida",
+        "Operações previsíveis"
+      ]
+    },
+    "ai": {
+      "title": "Enterprise 1: IA",
+      "subtitle": "Inteligência Aplicada",
+      "objective": "Automatizar processos e gerar valor real com IA.",
+      "services": [
+        "Integração de IA em sistemas",
+        "Automação de processos",
+        "Assistentes corporativos",
+        "IA & MCP (Model Context Protocol)"
+      ],
+      "practices": [
+        "RAG",
+        "Contexto controlado",
+        "Segurança da informação",
+        "Logs e auditoria"
+      ],
+      "results": [
+        "Eficiência operacional",
+        "Automação inteligente",
+        "Decisões melhores"
+      ]
+    },
+    "enterprise": {
+      "title": "Enterprise 2: Missão Crítica",
+      "subtitle": "Arquitetura, Segurança & Missão Crítica",
+      "objective": "Operar sistemas críticos com alto nível de exigência.",
+      "services": [
+        "Arquitetura de sistemas distribuídos",
+        "DevSecOps",
+        "Auditorias técnicas",
+        "Alta disponibilidade"
+      ],
+      "practices": [
+        "Menor privilégio",
+        "Segurança por design",
+        "Infra resiliente",
+        "Documentação viva"
+      ],
+      "results": [
+        "Compliance garantido",
+        "Zero trust",
+        "Operação contínua"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • IA • Cloud Native",
+    "title": {
+      "before": "Software confiável,",
+      "highlight": "infraestrutura automatizada",
+      "after": "e operações resilientes"
+    },
+    "subtitle": "Unimos engenharia de software, DevOps, SRE, IA e métodos ágeis para entregar sistemas estáveis, escaláveis e seguros para ambientes críticos.",
+    "cta": {
+      "primary": "Solicitar diagnóstico técnico",
+      "secondary": "Falar com um especialista"
+    },
+    "trust": "Tecnologias e práticas que utilizamos"
+  },
+  "footer": {
+    "description": "Parceira estratégica de tecnologia, focada em confiabilidade, escalabilidade, automação, segurança e entrega contínua de valor.",
+    "location": "São Paulo, Brasil",
+    "sections": {
+      "services": "Serviços",
+      "company": "Empresa",
+      "resources": "Recursos"
+    },
+    "services": {
+      "essential": "Essential",
+      "professional": "Professional",
+      "sre": "SRE",
+      "dataPerformance": "Data & Performance",
+      "aiAutomation": "AI & Automation",
+      "enterprise": "Enterprise"
+    },
+    "company": {
+      "about": "Sobre",
+      "careers": "Carreiras",
+      "blog": "Blog",
+      "contact": "Contato"
+    },
+    "resources": {
+      "docs": "Documentação",
+      "caseStudies": "Case Studies",
+      "whitepapers": "Whitepapers",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Pronto para transformar sua infraestrutura?",
+      "subtitle": "Entre em contato e descubra como podemos ajudar sua empresa a alcançar novos patamares de confiabilidade e eficiência.",
+      "primary": "Solicitar diagnóstico",
+      "secondary": "Falar com um especialista"
+    },
+    "rights": "Todos os direitos reservados."
+  }
+}

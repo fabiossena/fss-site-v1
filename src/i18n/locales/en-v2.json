@@ -1,0 +1,257 @@
+{
+  "nav": {
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "actions": {
+    "getStarted": "Get Started"
+  },
+  "section": {
+    "tag": "// SERVICES",
+    "title": "Plans organized by",
+    "highlight": "needs",
+    "description": "From basic support to mission-critical operations, we offer plans that evolve with your company's maturity and needs."
+  },
+  "servicesSection": {
+    "label": "// SERVICES",
+    "title": "Plans organized by",
+    "highlight": "needs",
+    "description": "From basic support to mission-critical operations, we offer plans that evolve with your company's maturity and needs."
+  },
+  "plans": {
+    "labels": {
+      "objective": "Objective",
+      "services": "Services",
+      "practices": "Practices",
+      "results": "Results"
+    },
+    "essential": {
+      "title": "Essential 1: Stability",
+      "subtitle": "Stability & Support",
+      "objective": "Ensure operational continuity and reduce incidents.",
+      "services": [
+        "System maintenance and evolution",
+        "Fixes and refactoring",
+        "Specialized technical support",
+        "Database administration"
+      ],
+      "practices": [
+        "Git",
+        "Code reviews",
+        "Monitoring",
+        "Backups"
+      ],
+      "results": [
+        "Fewer failures",
+        "Predictable environments",
+        "Higher reliability"
+      ]
+    },
+    "projects": {
+      "title": "Essential 2: Development",
+      "subtitle": "Projects & New Features",
+      "objective": "Develop innovative solutions and implement new technological capabilities.",
+      "services": [
+        "Development of new features",
+        "Implementation of systems from scratch",
+        "Migration and modernization of legacy systems",
+        "Integration of APIs and microservices",
+        "Scalable software architecture"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design)",
+        "Structured Code Review",
+        "TDD (Test Driven Development)"
+      ],
+      "results": [
+        "Innovative solutions",
+        "High code quality",
+        "Sustainable architecture",
+        "Best programming practices"
+      ]
+    },
+    "data": {
+      "title": "Essential 3: Data & Performance",
+      "subtitle": "Databases & Scale",
+      "objective": "Ensure performance and sustainable data growth.",
+      "services": [
+        "Database architecture (OLTP, Analytics, Cache)",
+        "Query tuning",
+        "Replication and high availability",
+        "Disaster recovery"
+      ],
+      "practices": [
+        "Proper DB selection",
+        "Latency monitoring",
+        "Tested backups",
+        "Growth planning"
+      ],
+      "results": [
+        "Fast systems",
+        "Lower operational costs",
+        "Reliable data"
+      ]
+    },
+    "professional": {
+      "title": "Professional 1: DevOps & IaC",
+      "subtitle": "DevOps & IaC & Automation",
+      "objective": "Increase delivery speed with security and standardization.",
+      "services": [
+        "Infrastructure as Code and Automation (Terraform, Ansible)",
+        "CI/CD and GitOps (GitHub Actions, Argo CD)",
+        "Containers and Orchestration (Docker, Kubernetes)",
+        "Cloud Computing and Hybrid Architectures (AWS, Azure)",
+        "Multicloud Strategies and Portability"
+      ],
+      "practices": [
+        "GitOps",
+        "Versioned infrastructure",
+        "Continuous deployment",
+        "Rollback strategies"
+      ],
+      "results": [
+        "Faster deployments",
+        "Less human error",
+        "Controlled scalability"
+      ]
+    },
+    "observability": {
+      "title": "Professional 2: Observability",
+      "subtitle": "Observability & Monitoring",
+      "objective": "Provide complete visibility into the state and performance of systems in real-time.",
+      "services": [
+        "Implementation of Grafana/New Relic dashboards",
+        "Configuration of intelligent alerts",
+        "Distributed metrics, logs, and traces",
+        "User behavior analysis"
+      ],
+      "practices": [
+        "Observability (Prometheus, Grafana)",
+        "4 Golden Signals (latency, traffic, errors, saturation)",
+        "OpenTelemetry",
+        "Log aggregation (Loki, Elastic)",
+        "Event correlation"
+      ],
+      "results": [
+        "Proactive problem detection",
+        "Complete stack visibility",
+        "Data-driven decisions"
+      ]
+    },
+    "sre": {
+      "title": "Professional 3: SRE",
+      "subtitle": "Reliability & High Availability",
+      "objective": "Ensure critical systems are reliable, resilient, and measurable.",
+      "services": [
+        "Definition of SLIs, SLOs, and SLAs",
+        "Incident management and postmortems",
+        "Operations automation"
+      ],
+      "practices": [
+        "Error budgets",
+        "Resilience testing",
+        "Runbooks",
+        "Toil reduction"
+      ],
+      "results": [
+        "Less downtime",
+        "Faster response",
+        "Predictable operations"
+      ]
+    },
+    "ai": {
+      "title": "Enterprise 1: AI",
+      "subtitle": "Applied Intelligence",
+      "objective": "Automate processes and generate real value with AI.",
+      "services": [
+        "AI integration into systems",
+        "Process automation",
+        "Enterprise assistants",
+        "AI & MCP (Model Context Protocol)"
+      ],
+      "practices": [
+        "RAG",
+        "Controlled context",
+        "Information security",
+        "Logging and auditing"
+      ],
+      "results": [
+        "Operational efficiency",
+        "Intelligent automation",
+        "Better decisions"
+      ]
+    },
+    "enterprise": {
+      "title": "Enterprise 2: Mission Critical",
+      "subtitle": "Architecture, Security & Mission Critical",
+      "objective": "Operate critical systems under high-demand conditions.",
+      "services": [
+        "Distributed systems architecture",
+        "DevSecOps",
+        "Technical audits",
+        "High availability"
+      ],
+      "practices": [
+        "Least privilege",
+        "Security by design",
+        "Resilient infrastructure",
+        "Living documentation"
+      ],
+      "results": [
+        "Guaranteed compliance",
+        "Zero trust",
+        "Continuous operations"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • AI • Cloud Native",
+    "title": {
+      "before": "Reliable software,",
+      "highlight": "automated infrastructure",
+      "after": "and resilient operations"
+    },
+    "subtitle": "We combine software engineering, DevOps, SRE, AI, scalable, and secure systems for mission-critical environments.",
+    "cta": {
+      "primary": "Request technical assessment",
+      "secondary": "Talk to a specialist"
+    },
+    "trust": "Technologies and practices we use"
+  },
+  "footer": {
+    "description": "Strategic technology partner focused on reliability, scalability, automation, security, and continuous value delivery.",
+    "location": "São Paulo, Brazil",
+    "sections": {
+      "services": "Services",
+      "company": "Company",
+      "resources": "Resources"
+    },
+    "services": {
+      "essential": "Essential",
+      "professional": "Professional",
+      "sre": "SRE",
+      "dataPerformance": "Data & Performance",
+      "aiAutomation": "AI & Automation",
+      "enterprise": "Enterprise"
+    },
+    "company": {
+      "about": "About",
+      "careers": "Careers",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "resources": {
+      "docs": "Documentation",
+      "caseStudies": "Case Studies",
+      "whitepapers": "Whitepapers",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Ready to transform your infrastructure?",
+      "subtitle": "Get in touch and discover how we can help your company reach new levels of reliability and efficiency.",
+      "primary": "Request assessment",
+      "secondary": "Connect with a Specialist"
+    },
+    "rights": "All rights reserved."
+  }
+}
