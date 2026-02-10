@@ -11,6 +11,11 @@ import de from "./locales/de.json";
 import ja from "./locales/ja.json";
 import zh from "./locales/zh.json";
 import ru from "./locales/ru.json";
+import no from "./locales/no.json";
+import nl from "./locales/nl.json";
+import kr from "./locales/kr.json";
+import se from "./locales/se.json";
+import dk from "./locales/dk.json";
 
 if (!i18n.isInitialized) {
   i18n
@@ -27,6 +32,11 @@ if (!i18n.isInitialized) {
         ja: { translation: ja },
         zh: { translation: zh },
         ru: { translation: ru },
+        no: { translation: no },
+        nl: { translation: nl },
+        kr: { translation: kr },
+        se: { translation: se },
+        dk: { translation: dk }
       },
       lng: "en",
       fallbackLng: "en",

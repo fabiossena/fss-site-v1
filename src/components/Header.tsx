@@ -30,14 +30,19 @@ const Header = () => {
 
   const languages: { code: Language; label: string; flag: string }[] = [
     { code: "en", label: "English", flag: "🇺🇸" },
-    { code: "br", label: "Português", flag: "🇧🇷" },
+    { code: "br", label: "Brasil (Português)", flag: "🇧🇷" },
     { code: "es", label: "Español", flag: "🇪🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
     { code: "de", label: "Deutsch", flag: "🇩🇪" },
     { code: "it", label: "Italiano", flag: "🇮🇹" },
     { code: "ja", label: "日本語", flag: "🇯🇵" },
     { code: "zh", label: "中文", flag: "🇨🇳" },
-    { code: "ru", label: "Русский", flag: "🇷🇺" }
+    { code: "ru", label: "Русский", flag: "🇷🇺" },
+    { code: "no", label: "Norsk", flag: "🇳🇴" },
+    { code: "nl", label: "Nederlands", flag: "🇳🇱" },
+    { code: "kr", label: "한국어", flag: "🇰🇷" },
+    { code: "se", label: "Svenska", flag: "🇸🇪" },
+    { code: "dk", label: "Dansk", flag: "🇩🇰" }
   ];
 
   return (
