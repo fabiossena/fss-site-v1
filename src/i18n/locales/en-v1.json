@@ -112,7 +112,7 @@
       "objective": "Implement infrastructure as code, continuous delivery pipelines, and reproducible environments with security and governance.",
       "services": [
         "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
-        "Configuration automation: Ansible, Chef, Puppet, SaltStack",
+        "Configuration automation with Ansible",
         "Enterprise CI/CD: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
         "GitOps: ArgoCD, FluxCD for declarative deployments",
         "Containerization: Docker, containerd, Podman",

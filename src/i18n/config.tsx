@@ -3,7 +3,14 @@ import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
 import en from "./locales/en.json";
-import pt from "./locales/pt.json";
+import br from "./locales/br.json";
+import es from "./locales/es.json";
+import it from "./locales/it.json";
+import fr from "./locales/fr.json";
+import de from "./locales/de.json";
+import ja from "./locales/ja.json";
+import zh from "./locales/zh.json";
+import ru from "./locales/ru.json";
 
 if (!i18n.isInitialized) {
   i18n
@@ -12,7 +19,14 @@ if (!i18n.isInitialized) {
     .init({
       resources: {
         en: { translation: en },
-        pt: { translation: pt },
+        br: { translation: br },
+        es: { translation: es },
+        it: { translation: it },
+        fr: { translation: fr },
+        de: { translation: de },
+        ja: { translation: ja },
+        zh: { translation: zh },
+        ru: { translation: ru },
       },
       lng: "en",
       fallbackLng: "en",

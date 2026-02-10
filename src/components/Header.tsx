@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Globe } from "lucide-react";
 import { useTranslation } from "react-i18next";
-import { useLanguage } from "@/context/LanguageContext";
+import { useLanguage, type Language } from "@/context/LanguageContext";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -26,6 +26,18 @@ const Header = () => {
   const navItems = [
     { label: t("nav.services"), href: "#services" },
     { label: t("nav.contact"), href: "#contact" },
+  ];
+
+  const languages: { code: Language; label: string; flag: string }[] = [
+    { code: "en", label: "English", flag: "🇺🇸" },
+    { code: "br", label: "Português", flag: "🇧🇷" },
+    { code: "es", label: "Español", flag: "🇪🇸" },
+    { code: "fr", label: "Français", flag: "🇫🇷" },
+    { code: "de", label: "Deutsch", flag: "🇩🇪" },
+    { code: "it", label: "Italiano", flag: "🇮🇹" },
+    { code: "ja", label: "日本語", flag: "🇯🇵" },
+    { code: "zh", label: "中文", flag: "🇨🇳" },
+    { code: "ru", label: "Русский", flag: "🇷🇺" }
   ];
 
   return (
@@ -64,12 +76,11 @@ const Header = () => {
                 </Button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem onClick={() => setLanguage("pt")}>
-                  🇧🇷 Português
-                </DropdownMenuItem>
-                <DropdownMenuItem onClick={() => setLanguage("en")}>
-                  🇺🇸 English
-                </DropdownMenuItem>
+                {languages.map((lang) => (
+                  <DropdownMenuItem key={lang.code} onClick={() => setLanguage(lang.code)}>
+                    {lang.flag} {lang.label}
+                  </DropdownMenuItem>
+                ))}
               </DropdownMenuContent>
             </DropdownMenu>
 
@@ -99,7 +110,7 @@ const Header = () => {
                 </DropdownMenuTrigger>
 
                 <DropdownMenuContent>
-                  <DropdownMenuItem onClick={() => setLanguage("pt")}>
+                  <DropdownMenuItem onClick={() => setLanguage("br")}>
                     🇧🇷 Português
                   </DropdownMenuItem>
                   <DropdownMenuItem onClick={() => setLanguage("en")}>

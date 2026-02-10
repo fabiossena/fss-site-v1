@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 import i18n from "@/i18n/config";
 
-export type Language = "pt" | "en";
+export type Language = "en" | "br" | "es" | "it" | "fr" | "de" |  "ja" | "zh" | "ru";
 
 interface LanguageContextProps {
   language: Language;

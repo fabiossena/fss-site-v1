@@ -116,13 +116,13 @@
       "subtitle": "DevOps, IaC & Automação",
       "objective": "Implementar infraestrutura como código, pipelines de entrega contínua e ambientes reproduzíveis com segurança e governança.",
       "services": [
-        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
-        "Automação de configuração: Ansible, Chef, Puppet, SaltStack",
-        "CI/CD enterprise: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
-        "GitOps: ArgoCD, FluxCD para deployment declarativo",
-        "Containerização: Docker, containerd, Podman",
-        "Orquestração: Kubernetes, Nomad, Docker Swarm",
-        "Cloud: AWS, Azure, GCP com arquiteturas bem-architected"
+        "Infraestrutura como Código (IaC) com Terraform",
+        "Gerenciamento e automação de configuração com Ansible",
+        "Pipelines de CI/CD corporativos com GitHub Actions",
+        "Fluxos GitOps com Argo CD",
+        "Containerização de aplicações com Docker",
+        "Orquestração de contêineres com Kubernetes",
+        "Plataformas de nuvem: AWS e Azure"
       ],
       "practices": [
         "GitOps com rollback automático e approval gates",

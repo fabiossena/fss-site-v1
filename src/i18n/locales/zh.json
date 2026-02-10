@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "services": "服务",
+    "contact": "联系"
+  },
+  "actions": {
+    "getStarted": "开始"
+  },
+  "servicesSection": {
+    "label": "// 服务",
+    "title": "按需求组织的",
+    "highlight": "计划",
+    "description": "从基础支持到关键任务运营，我们提供随着公司成熟度和需求而发展的计划。",
+    "categories": {
+      "essential": "Essential",
+      "essentialDescription": "初创企业和小型企业的核心服务",
+      "professional": "Professional",
+      "professionalDescription": "成长型企业的先进解决方案",
+      "enterprise": "Enterprise",
+      "enterpriseDescription": "大型组织的企业级解决方案"
+    }
+  },
+  "plans": {
+    "labels": {
+      "objective": "目标",
+      "services": "服务",
+      "practices": "实践与技术",
+      "results": "预期结果"
+    },
+    "essential1": {
+      "title": "Essential 1: 支持",
+      "subtitle": "维护与运营稳定性",
+      "objective": "确保现有系统的运营连续性、稳定性和主动减少事件。",
+      "services": [
+        "遗留和现代系统的纠正性和进化性维护",
+        "代码重构和技术债务减少",
+        "依赖管理和安全更新",
+        "实施异步流程的消息传递解决方案"
+      ],
+      "practices": [
+        "语言: C#, Java, PHP, JavaScript/TypeScript, Python",
+        "框架: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
+        "版本控制: 具有结构化工作流的Git",
+        "具有技术检查清单的系统化代码审查",
+        "维护的单元测试和集成测试"
+      ],
+      "results": [
+        "重大事件减少40%以上",
+        "稳定且可预测的环境",
+        "更清晰、更可持续的代码"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: 开发",
+      "subtitle": "新项目与功能",
+      "objective": "通过现代架构、保证质量和持续价值交付开发创新解决方案。",
+      "services": [
+        "新功能和模块的开发",
+        "具有现代架构的全新系统实施",
+        "遗留系统向当前技术的战略迁移",
+        "REST/GraphQL API和微服务架构集成",
+        "可扩展架构的设计与实施 (事件驱动, CQRS)"
+      ],
+      "practices": [
+        "具有限界上下文的DDD (领域驱动设计)",
+        "TDD (测试驱动开发) 和 BDD (行为驱动开发)",
+        "具有自动化流水线的基础CI/CD",
+        "前端框架: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI库: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "六边形架构和清洁架构",
+        "敏捷方法、Scrum、规划、同步、待办事项细化、Jira、代码审查",
+        "复杂问题的结对编程和群体编程",
+        "活的技术文档 (Swagger/OpenAPI, Archimate)",
+        "应用于大规模系统的设计模式"
+      ],
+      "results": [
+        "上市时间缩短30-50%",
+        "具有高测试覆盖率的解决方案 (>80%)",
+        "可持续且易于发展的架构",
+        "低耦合高内聚的代码",
+        "可衡量价值的持续交付"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: 数据与集成",
+      "subtitle": "数据库与消息传递",
+      "objective": "优化数据性能并实施可靠的消息传递系统以实现异步集成。",
+      "services": [
+        "查询和执行计划的高级优化",
+        "同步/异步复制和高可用性 (HA)",
+        "具有定义RTO/RPO的灾难恢复",
+        "维度建模和优化的模式设计",
+        "实施系统间集成的消息传递系统",
+        "遗留平台与现代平台之间的数据迁移"
+      ],
+      "practices": [
+        "数据库: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
+        "消息传递: RabbitMQ, Apache Kafka用于事件处理",
+        "监控: 查询性能洞察、死锁、等待统计",
+        "战略备份: 完整、差异、事务日志",
+        "智能索引和分区",
+        "高级存储过程、触发器和T-SQL优化",
+        "用于异步处理的RabbitMQ集成"
+      ],
+      "results": [
+        "优化性能 (延迟减少60%以上)",
+        "通过适当扩展优化运营成本",
+        "数据可用性 >99.9%",
+        "灾难场景中的保证恢复",
+        "可预测的增长可扩展性",
+        "使用RabbitMQ的可靠异步处理"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: 基础设施",
+      "subtitle": "DevOps, IaC与自动化",
+      "objective": "实施具有安全和治理的基础设施即代码、持续交付流水线和可重现环境。",
+      "services": [
+        "基础设施即代码: Terraform, Pulumi, AWS CDK, Crossplane",
+        "配置自动化: Ansible, Chef, Puppet, SaltStack",
+        "企业CI/CD: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
+        "GitOps: 用于声明式部署的ArgoCD, FluxCD",
+        "容器化: Docker, containerd, Podman",
+        "编排: Kubernetes, Nomad, Docker Swarm",
+        "云: 具有良好架构的AWS, Azure, GCP"
+      ],
+      "practices": [
+        "具有自动回滚和批准门的GitOps",
+        "不可变和版本化的基础设施",
+        "具有可重用模板的流水线即代码",
+        "所有阶段的安全扫描 (SAST, DAST, SCA)",
+        "战略性的多云和混合云",
+        "服务网格: 用于可观察性的Istio, Linkerd",
+        "秘密管理: HashiCorp Vault, AWS Secrets Manager",
+        "用于Kubernetes配置和编排的YAML",
+        "使用k9s进行集群管理的运营支持"
+      ],
+      "results": [
+        "频繁且可预测的部署 (每天多次)",
+        "几分钟内的灾难恢复",
+        "环境间的一致性 (开发、测试、生产)",
+        "通过自动扩展优化的成本",
+        "与策略的自动化合规",
+        "容器化环境中99.9%的运行时间"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: 可观察性",
+      "subtitle": "企业监控与遥测",
+      "objective": "通过实时遥测提供完全可见性、主动检测和可操作的见解。",
+      "services": [
+        "完全可观察性的实施: 指标、日志、跟踪",
+        "企业仪表板: Grafana, New Relic",
+        "综合监控和用户体验检查"
+      ],
+      "practices": [
+        "具有版本化配置的可观察性即代码",
+        "用于自定义指标的Grafana和Prometheus",
+        "4个黄金信号 + RED和USE方法",
+        "SLO/SLI/SLA定义和错误预算跟踪",
+        "系统间的事件关联"
+      ],
+      "results": [
+        "技术堆栈的完全可见性",
+        "低噪音的智能警报",
+        "基于数据的实时决策",
+        "在用户之前检测到问题"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: 可靠性",
+      "subtitle": "站点可靠性工程",
+      "objective": "通过系统化工程和自动化确保可靠性、弹性和可预测的运营。",
+      "services": [
+        "SLI、SLO、SLA的定义和实施",
+        "使用剧本和作战室的故障管理",
+        "无责文化和行动项目的后期分析",
+        "容量规划和性能预测",
+        "混沌工程和弹性测试",
+        "运营自动化 (聊天运维、自动化运行手册)",
+        "具有消息传递的分布式系统编排"
+      ],
+      "practices": [
+        "错误预算管理和有意识的权衡",
+        "游戏日和故障注入测试",
+        "具有自动修复的可执行运行手册",
+        "通过自动化减少手工工作",
+        "金丝雀部署和功能标记",
+        "具有多个维度的服务级别目标",
+        "具有自动升级的事件响应",
+        "事件驱动架构中的Apache Kafka集成",
+        "消息处理系统的弹性"
+      ],
+      "results": [
+        "关键服务的可用性 >99.95%",
+        "可预测和可扩展的运营",
+        "手工工作减少70%以上",
+        "通过故障的持续学习文化",
+        "高可用性消息传递系统"
+      ]
+    },
+    "enterprise1": {
+      "title": "Enterprise 1: 云与消息传递",
+      "subtitle": "无服务器与事件驱动架构",
+      "objective": "最大化使用托管云服务和消息传递系统，实现可扩展的事件驱动架构。",
+      "services": [
+        "使用AWS Lambda、Azure Functions的无服务器优先架构",
+        "无服务器容器化: AWS Fargate, Azure Container Instances",
+        "企业可观察性: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "使用托管服务的事件驱动架构 (EventBridge, SQS)",
+        "托管数据库: RDS, Aurora, Azure SQL Managed Instance",
+        "使用Apache Kafka的分布式系统编排"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "用于无服务器资源管理的Karpenter",
+        "具有可重用模块的基础设施即代码",
+        "使用托管服务的事件驱动设计模式",
+        "基于自定义指标的Fargate自动扩展",
+        "用于大规模处理的Apache Kafka",
+        "用于微服务间集成的RabbitMQ"
+      ],
+      "results": [
+        "运营开销减少70%以上",
+        "新服务几小时内上市",
+        "按需自动扩展",
+        "由云提供商管理的运营",
+        "团队专注于功能而非基础设施",
+        "在多个区域中经过验证的弹性",
+        "高度可扩展的事件驱动架构"
+      ]
+    },
+    "enterprise2": {
+      "title": "Enterprise 2: AI与自动化",
+      "subtitle": "生成式AI与智能处理",
+      "objective": "实施自动化复杂流程、提高生产力并生成战略见解的AI解决方案。",
+      "services": [
+        "企业系统中生成式AI的集成",
+        "用于安全集成的模型上下文协议 (MCP)",
+        "智能RPA的流程自动化",
+        "具有检索增强生成 (RAG) 的企业助手",
+        "针对特定领域的模型微调",
+        "计算机视觉和自然语言处理"
+      ],
+      "practices": [
+        "具有向量化的RAG (检索增强生成)",
+        "上下文管理和安全护栏",
+        "高级提示工程和思维链",
+        "LLM运维: 版本控制、监控、评估",
+        "持续模型评估和漂移检测"
+      ],
+      "results": [
+        "手动流程自动化 (减少70%以上)",
+        "通过AI见解更快的决策",
+        "通过智能助手提高生产力",
+        "通过快速原型设计加速创新",
+        "AI解决方案中的治理和合规",
+        "与消息传递系统集成的数据管道"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: 关键任务",
+      "subtitle": "企业架构与安全",
+      "objective": "运营具有极端安全、合规、可用性和性能要求的关键系统。",
+      "services": [
+        "大规模分布式系统架构",
+        "具有左移和右移安全的DevSecOps",
+        "技术审计和合规 (ISO, SOC2, GDPR, LGPD)",
+        "多区域高可用性架构",
+        "企业业务连续性和灾难恢复",
+        "高交易量系统的性能工程",
+        "关键金融操作的消息传递系统"
+      ],
+      "practices": [
+        "具有微分割的零信任架构",
+        "所有组件中的安全设计",
+        "具有故障域的弹性基础设施",
+        "具有架构决策记录的活文档",
+        "企业架构框架: TOGAF, Zachman",
+        "持续渗透测试和漏洞赏金计划",
+        "端到端加密和机密计算",
+        "用于高可用性金融系统的Apache Kafka",
+        "具有集群和镜像以实现高可用性的RabbitMQ"
+      ],
+      "results": [
+        "保证符合法规",
+        "关键任务的可用性 >99.99%",
+        "具有威胁情报的主动安全",
+        "压力测试中经过验证的弹性",
+        "具有审计跟踪的完整治理",
+        "具有关键交易交付保证的消息传递系统"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • AI • 云原生 • 安全 • 消息传递",
+    "title": {
+      "before": "可靠的软件，",
+      "highlight": "自动化的基础设施",
+      "after": "和弹性的运营"
+    },
+    "subtitle": "我们结合软件工程、DevOps、SRE、AI、消息传递 (Kafka/RabbitMQ) 和敏捷方法，为关键环境提供稳定、可扩展和安全的系统。",
+    "cta": {
+      "primary": "请求技术诊断",
+      "secondary": "与专家交谈"
+    },
+    "trust": "我们使用的技术和实践"
+  },
+  "footer": {
+    "description": "专注于可靠性、可扩展性、自动化、消息传递、安全和持续价值交付的战略技术合作伙伴。",
+    "location": "圣保罗，巴西",
+    "sections": {
+      "services": "服务",
+      "company": "公司",
+      "resources": "资源"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "关于",
+      "careers": "职业",
+      "blog": "博客",
+      "contact": "联系"
+    },
+    "resources": {
+      "docs": "文档",
+      "caseStudies": "案例研究",
+      "whitepapers": "白皮书",
+      "status": "状态"
+    },
+    "cta": {
+      "title": "准备好改变您的基础设施了吗？",
+      "subtitle": "联系我们，了解我们如何帮助您的公司达到新的可靠性和效率水平。",
+      "primary": "请求诊断",
+      "secondary": "与专家交谈"
+    },
+    "rights": "保留所有权利。"
+  }
+}

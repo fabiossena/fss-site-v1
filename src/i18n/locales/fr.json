@@ -1,0 +1,348 @@
+{
+  "nav": {
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "actions": {
+    "getStarted": "Commencer"
+  },
+  "servicesSection": {
+    "label": "// SERVICES",
+    "title": "Plans organisés par",
+    "highlight": "besoin",
+    "description": "Du support de base aux opérations critiques, nous proposons des plans qui évoluent avec la maturité et les besoins de votre entreprise.",
+    "categories": {
+      "essential": "Essential",
+      "essentialDescription": "Services essentiels pour les startups et petites entreprises",
+      "professional": "Professional",
+      "professionalDescription": "Solutions avancées pour les entreprises en croissance",
+      "enterprise": "Enterprise",
+      "enterpriseDescription": "Solutions de niveau entreprise pour les grandes organisations"
+    }
+  },
+  "plans": {
+    "labels": {
+      "objective": "Objectif",
+      "services": "Services",
+      "practices": "Pratiques & Technologies",
+      "results": "Résultats Attendus"
+    },
+    "essential1": {
+      "title": "Essential 1: Soutien",
+      "subtitle": "Maintenance & Stabilité Opérationnelle",
+      "objective": "Garantir la continuité opérationnelle, la stabilité et la réduction proactive des incidents dans les systèmes existants.",
+      "services": [
+        "Maintenance corrective et évolutive des systèmes legacy et modernes",
+        "Refactorisation du code et réduction de la dette technique",
+        "Gestion des dépendances et mises à jour de sécurité",
+        "Implémentation de solutions de messagerie pour les processus asynchrones"
+      ],
+      "practices": [
+        "Langages: C#, Java, PHP, JavaScript/TypeScript, Python",
+        "Frameworks: .NET Core/6+, React, Laravel, Vue.js, Spring Boot, Django",
+        "Gestion de versions: Git avec flux structurés",
+        "Code Review systématique avec checklists techniques",
+        "Tests unitaires et d'intégration maintenus"
+      ],
+      "results": [
+        "Réduction >40% des incidents critiques",
+        "Environnements stables et prévisibles",
+        "Code plus propre et durable"
+      ]
+    },
+    "essential2": {
+      "title": "Essential 2: Développement",
+      "subtitle": "Nouveaux Projets & Fonctionnalités",
+      "objective": "Développer des solutions innovantes avec une architecture moderne, une qualité garantie et une livraison continue de valeur.",
+      "services": [
+        "Développement de nouvelles fonctionnalités et modules",
+        "Implémentation de systèmes greenfield avec architecture moderne",
+        "Migration stratégique des systèmes legacy vers les technologies actuelles",
+        "Intégration d'APIs REST/GraphQL et architecture microservices",
+        "Conception et implémentation d'architectures scalables (event-driven, CQRS)"
+      ],
+      "practices": [
+        "DDD (Domain-Driven Design) avec bounded contexts",
+        "TDD (Test Driven Development) et BDD (Behavior Driven Development)",
+        "CI/CD de base avec pipelines automatisés",
+        "Frameworks frontend: React, Vue.js, Angular, Blazor, Razor Pages",
+        "UI Libraries: Material-UI, Ant Design, Lucide, Tailwind UI",
+        "Architecture hexagonale et clean architecture",
+        "Méthodologies agiles, Scrum, Plannings, Synchronisation, Raffinement des backlogs, Jira, revues de code",
+        "Pair programming et mob programming pour les complexités",
+        "Documentation technique vivante (Swagger/OpenAPI, Archimate)",
+        "Design Patterns appliqués aux systèmes à grande échelle"
+      ],
+      "results": [
+        "Time-to-market réduit de 30-50%",
+        "Solutions avec haute couverture de tests (>80%)",
+        "Architectures durables et faciles à faire évoluer",
+        "Code à faible couplage et haute cohésion",
+        "Livraison continue de valeur mesurable"
+      ]
+    },
+    "essential3": {
+      "title": "Essential 3: Données & Intégration",
+      "subtitle": "Bases de Données & Messagerie",
+      "objective": "Optimiser les performances des données et implémenter des systèmes de messagerie fiables pour l'intégration asynchrone.",
+      "services": [
+        "Optimisation avancée des requêtes et plans d'exécution",
+        "Réplication synchrone/asynchrone et haute disponibilité (HA)",
+        "Disaster Recovery avec RTO/RPO définis",
+        "Modélisation dimensionnelle et conception de schémas optimisés",
+        "Implémentation de systèmes de messagerie pour l'intégration entre systèmes",
+        "Migration de données entre plateformes legacy et modernes"
+      ],
+      "practices": [
+        "SGBD: PostgreSQL, MySQL, SQL Server, MongoDB, Redis, SQLite",
+        "Messagerie: RabbitMQ, Apache Kafka pour le traitement d'événements",
+        "Monitoring: Query performance insights, deadlocks, wait stats",
+        "Backup stratégique: full, differential, transaction log",
+        "Indexation intelligente et partitionnement",
+        "Stored Procedures avancées, triggers et optimisation T-SQL",
+        "Intégration RabbitMQ pour le traitement asynchrone"
+      ],
+      "results": [
+        "Performance optimisée (latence réduite de 60%+)",
+        "Coûts opérationnels optimisés avec scaling adéquat",
+        "Disponibilité des données >99.9%",
+        "Récupération garantie dans les scénarios de désastre",
+        "Scalabilité prévisible pour la croissance",
+        "Traitement asynchrone fiable avec RabbitMQ"
+      ]
+    },
+    "professional1": {
+      "title": "Professional 1: Infrastructure",
+      "subtitle": "DevOps, IaC & Automatisation",
+      "objective": "Implémenter l'infrastructure en tant que code, les pipelines de livraison continue et les environnements reproductibles avec sécurité et gouvernance.",
+      "services": [
+        "Infrastructure as Code: Terraform, Pulumi, AWS CDK, Crossplane",
+        "Automatisation de configuration: Ansible, Chef, Puppet, SaltStack",
+        "CI/CD enterprise: GitHub Actions, GitLab CI, Jenkins, Azure DevOps",
+        "GitOps: ArgoCD, FluxCD pour le déploiement déclaratif",
+        "Containerisation: Docker, containerd, Podman",
+        "Orchestration: Kubernetes, Nomad, Docker Swarm",
+        "Cloud: AWS, Azure, GCP avec des architectures well-architected"
+      ],
+      "practices": [
+        "GitOps avec rollback automatique et approval gates",
+        "Infrastructure immuable et versionnée",
+        "Pipeline as Code avec templates réutilisables",
+        "Security scanning à toutes les étapes (SAST, DAST, SCA)",
+        "Multi-cloud et hybrid cloud stratégiques",
+        "Service Mesh: Istio, Linkerd pour l'observabilité",
+        "Secret management: HashiCorp Vault, AWS Secrets Manager",
+        "YAML pour la configuration Kubernetes et l'orchestration",
+        "Support opérationnel avec k9s pour la gestion des clusters"
+      ],
+      "results": [
+        "Déploiements fréquents et prévisibles (plusieurs/jour)",
+        "Récupération de désastres en minutes",
+        "Cohérence entre environnements (dev, staging, prod)",
+        "Coûts optimisés avec auto-scaling",
+        "Conformité automatisée avec les politiques",
+        "99.9% uptime dans les environnements conteneurisés"
+      ]
+    },
+    "professional2": {
+      "title": "Professional 2: Observabilité",
+      "subtitle": "Monitoring & Télémétrie d'Entreprise",
+      "objective": "Fournir une visibilité complète, une détection proactive et des insights actionnables grâce à la télémétrie en temps réel.",
+      "services": [
+        "Implémentation d'observabilité complète: métriques, logs, traces",
+        "Dashboards d'entreprise: Grafana, New Relic",
+        "Monitoring synthétique et vérifications d'expérience utilisateur"
+      ],
+      "practices": [
+        "Observability as Code avec configuration versionnée",
+        "Grafana et Prometheus pour les métriques personnalisées",
+        "4 Golden Signals + RED et USE methodologies",
+        "SLO/SLI/SLA definition et error budget tracking",
+        "Corrélation d'événements entre systèmes"
+      ],
+      "results": [
+        "Visibilité complète de la stack technologique",
+        "Alertes intelligentes avec faible bruit",
+        "Décisions basées sur les données en temps réel",
+        "Problèmes détectés avant les utilisateurs"
+      ]
+    },
+    "professional3": {
+      "title": "Professional 3: Fiabilité",
+      "subtitle": "Site Reliability Engineering",
+      "objective": "Garantir la fiabilité, la résilience et les opérations prévisibles grâce à l'ingénierie systématique et l'automatisation.",
+      "services": [
+        "Définition et implémentation des SLIs, SLOs, SLAs",
+        "Gestion des incidents avec playbooks et war rooms",
+        "Post-mortems avec blameless culture et action items",
+        "Capacity planning et performance forecasting",
+        "Chaos engineering et resilience testing",
+        "Automatisation des opérations (chatops, runbooks automatisés)",
+        "Orchestration des systèmes distribués avec messagerie"
+      ],
+      "practices": [
+        "Error budget management et trade-offs conscients",
+        "Game days et failure injection testing",
+        "Runbooks exécutables avec auto-remediation",
+        "Toil reduction grâce à l'automatisation",
+        "Canary deployments et feature flagging",
+        "Service Level Objectives avec multiples dimensions",
+        "Incident response avec escalade automatisée",
+        "Intégration Apache Kafka dans les architectures event-driven",
+        "Résilience dans les systèmes de traitement de messages"
+      ],
+      "results": [
+        "Disponibilité >99.95% pour les services critiques",
+        "Opérations prévisibles et scalables",
+        "Réduction >70% du toil manuel",
+        "Culture d'apprentissage continu avec les incidents",
+        "Systèmes de messagerie hautement disponibles"
+      ]
+    },
+    "enterprise1": {
+      "title": "Enterprise 1: Cloud & Messagerie",
+      "subtitle": "Serverless & Event-Driven Architecture",
+      "objective": "Maximiser l'utilisation des services cloud managés et des systèmes de messagerie pour des architectures event-driven scalables.",
+      "services": [
+        "Architecture serverless-first avec AWS Lambda, Azure Functions",
+        "Containerisation serverless: AWS Fargate, Azure Container Instances",
+        "Observabilité d'entreprise: AWS CloudWatch, Azure Monitor, Grafana Cloud",
+        "Event-driven architectures avec services managés (EventBridge, SQS)",
+        "Managed databases: RDS, Aurora, Azure SQL Managed Instance",
+        "Orchestration des systèmes distribués avec Apache Kafka"
+      ],
+      "practices": [
+        "CloudWatch Logs Insights, Metrics, Contributor Insights",
+        "Karpenter pour la gestion des ressources serverless",
+        "Infrastructure as Code avec modules réutilisables",
+        "Event-driven design patterns avec services managés",
+        "Fargate avec auto-scaling basé sur métriques personnalisées",
+        "Apache Kafka pour le traitement à grande échelle",
+        "RabbitMQ pour l'intégration entre microservices"
+      ],
+      "results": [
+        "Réduction 70%+ de l'overhead opérationnel",
+        "Time-to-market pour nouveaux services en heures",
+        "Scalabilité automatique à la demande",
+        "Opérations managées par les fournisseurs cloud",
+        "Focus de l'équipe sur les features, pas sur l'infrastructure",
+        "Résilience prouvée dans multiples régions",
+        "Architectures event-driven hautement scalables"
+      ]
+    },
+    "enterprise2": {
+      "title": "Enterprise 2: IA & Automatisation",
+      "subtitle": "IA Générative & Traitement Intelligent",
+      "objective": "Implémenter des solutions d'IA qui automatisent les processus complexes, augmentent la productivité et génèrent des insights stratégiques.",
+      "services": [
+        "Intégration d'IA générative dans les systèmes d'entreprise",
+        "Model Context Protocol (MCP) pour intégration sécurisée",
+        "Automatisation des processus avec RPA intelligent",
+        "Assistants d'entreprise avec retrieval-augmented generation (RAG)",
+        "Fine-tuning de modèles pour domaines spécifiques",
+        "Computer vision et traitement du langage naturel"
+      ],
+      "practices": [
+        "RAG (Retrieval-Augmented Generation) avec vectorisation",
+        "Context management et guardrails de sécurité",
+        "Prompt engineering avancé et chain-of-thought",
+        "LLM Ops: versioning, monitoring, evaluation",
+        "Évaluation continue des modèles et drift detection"
+      ],
+      "results": [
+        "Automatisation des processus manuels (70%+ réduction)",
+        "Décisions plus rapides avec insights d'IA",
+        "Productivité augmentée avec assistants intelligents",
+        "Innovation accélérée avec prototypage rapide",
+        "Gouvernance et conformité dans les solutions d'IA",
+        "Pipeline de données intégré avec systèmes de messagerie"
+      ]
+    },
+    "enterprise3": {
+      "title": "Enterprise 3: Mission Critique",
+      "subtitle": "Architecture d'Entreprise & Sécurité",
+      "objective": "Opérer des systèmes critiques avec des exigences extrêmes de sécurité, conformité, disponibilité et performance.",
+      "services": [
+        "Architecture de systèmes distribués à grande échelle",
+        "DevSecOps avec sécurité shift-left et shift-right",
+        "Audits techniques et conformité (ISO, SOC2, GDPR, LGPD)",
+        "Architectures de haute disponibilité multi-région",
+        "Business continuity et disaster recovery d'entreprise",
+        "Performance engineering pour systèmes transaction-heavy",
+        "Systèmes de messagerie pour opérations financières critiques"
+      ],
+      "practices": [
+        "Zero Trust Architecture avec micro-segmentation",
+        "Security by design dans tous les composants",
+        "Infrastructure résiliente avec failure domains",
+        "Documentation vivante avec architectural decision records",
+        "Frameworks: TOGAF, Zachman pour l'architecture d'entreprise",
+        "Tests de pénétration continus et bug bounty programs",
+        "Chiffrement end-to-end et confidential computing",
+        "Apache Kafka pour systèmes financiers haute disponibilité",
+        "RabbitMQ avec clustering et mirroring pour haute disponibilité"
+      ],
+      "results": [
+        "Conformité garantie avec les régulations",
+        "Disponibilité >99.99% pour mission critique",
+        "Sécurité proactive avec threat intelligence",
+        "Résilience prouvée dans les tests de stress",
+        "Gouvernance complète avec audit trails",
+        "Systèmes de messagerie avec garantie de livraison pour transactions critiques"
+      ]
+    }
+  },
+  "hero": {
+    "badge": "DevOps • SRE • IA • Cloud Native • Security • Messaging",
+    "title": {
+      "before": "Logiciel fiable,",
+      "highlight": "infrastructure automatisée",
+      "after": "et opérations résilientes"
+    },
+    "subtitle": "Nous unissons l'ingénierie logicielle, DevOps, SRE, IA, messagerie (Kafka/RabbitMQ) et les méthodes agiles pour livrer des systèmes stables, scalables et sécurisés pour les environnements critiques.",
+    "cta": {
+      "primary": "Demander un diagnostic technique",
+      "secondary": "Parler à un spécialiste"
+    },
+    "trust": "Technologies et pratiques que nous utilisons"
+  },
+  "footer": {
+    "description": "Partenaire technologique stratégique, concentré sur la fiabilité, la scalabilité, l'automatisation, la messagerie, la sécurité et la livraison continue de valeur.",
+    "location": "São Paulo, Brésil",
+    "sections": {
+      "services": "Services",
+      "company": "Entreprise",
+      "resources": "Ressources"
+    },
+    "services": {
+      "essential1": "Essential",
+      "essential2": "Projects",
+      "essential3": "Data & Scale",
+      "professional1": "Infrastructure",
+      "professional2": "Observability",
+      "professional3": "SRE",
+      "enterprise1": "Cloud",
+      "enterprise2": "AI & Automation",
+      "enterprise3": "Enterprise"
+    },
+    "company": {
+      "about": "À propos",
+      "careers": "Carrières",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "resources": {
+      "docs": "Documentation",
+      "caseStudies": "Case Studies",
+      "whitepapers": "Whitepapers",
+      "status": "Status"
+    },
+    "cta": {
+      "title": "Prêt à transformer votre infrastructure ?",
+      "subtitle": "Contactez-nous et découvrez comment nous pouvons aider votre entreprise à atteindre de nouveaux niveaux de fiabilité et d'efficacité.",
+      "primary": "Demander un diagnostic",
+      "secondary": "Parler à un spécialiste"
+    },
+    "rights": "Tous droits réservés."
+  }
+}
