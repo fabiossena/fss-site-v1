@@ -16,6 +16,7 @@ import nl from "./locales/nl.json";
 import kr from "./locales/kr.json";
 import se from "./locales/se.json";
 import dk from "./locales/dk.json";
+import pt from "./locales/pt.json";
 
 if (!i18n.isInitialized) {
   i18n
@@ -25,6 +26,7 @@ if (!i18n.isInitialized) {
       resources: {
         en: { translation: en },
         br: { translation: br },
+        pt: { translation: pt },
         es: { translation: es },
         it: { translation: it },
         fr: { translation: fr },
