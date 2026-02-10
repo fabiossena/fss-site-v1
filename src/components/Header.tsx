@@ -115,12 +115,11 @@ const Header = () => {
                 </DropdownMenuTrigger>
 
                 <DropdownMenuContent>
-                  <DropdownMenuItem onClick={() => setLanguage("br")}>
-                    🇧🇷 Português
+                {languages.map((lang) => (
+                  <DropdownMenuItem key={lang.code} onClick={() => setLanguage(lang.code)}>
+                    {lang.flag} {lang.label}
                   </DropdownMenuItem>
-                  <DropdownMenuItem onClick={() => setLanguage("en")}>
-                    🇺🇸 English
-                  </DropdownMenuItem>
+                ))}
                 </DropdownMenuContent>
               </DropdownMenu>
             </div>
