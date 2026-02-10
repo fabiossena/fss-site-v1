@@ -30,7 +30,8 @@ const Header = () => {
 
   const languages: { code: Language; label: string; flag: string }[] = [
     { code: "en", label: "English", flag: "🇺🇸" },
-    { code: "br", label: "Brasil (Português)", flag: "🇧🇷" },
+    { code: "br", label: "Português (Brasil)", flag: "🇧🇷" },
+    { code: "pt", label: "Português (Portugal)", flag: "🇵🇹" },
     { code: "es", label: "Español", flag: "🇪🇸" },
     { code: "fr", label: "Français", flag: "🇫🇷" },
     { code: "de", label: "Deutsch", flag: "🇩🇪" },
